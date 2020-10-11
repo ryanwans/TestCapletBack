@@ -33,10 +33,12 @@ app.post('/a3/l/q/a/l', function(req, res) {
   for(i=0; i<logs.length; i++) {
     console.log(Data["u"], logs[i].username);
     if(Data["u"] == logs[i].username) {
-      logged = [
-        true,
-        i
-      ]
+      if(Data["p"] == logs[i].password) {
+        logged = [
+          true,
+          i
+        ]
+      }
     }
   }
   if(logged[0]) {
