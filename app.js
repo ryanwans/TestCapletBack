@@ -24,13 +24,12 @@ app.post('/a3/l/q/a/l', function(req, res) {
   // console.log(Data);
   // Data = JSON.parse(Data);
   Data = atob(Data.data);
-  console.log(Data);
+  Data = JSON.parse(Data)
 
   // We can use a normal fs parse for user logins
   // becuase their aren't as many entries in said array
   var logs = fs.readFileSync('./bank/Users.json'), i=0, logged = [];
   logs = JSON.parse(logs);
-  console.log(logs, Data)
   for(i=0; i<logs.length; i++) {
     console.log(Data["u"], logs[i].username);
     if(Data["u"] == logs[i].username) {
