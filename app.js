@@ -68,8 +68,8 @@ app.post('/a3/l/q/a/l', function(req, res) {
     res.json({
       auth: true,
       method: 'teacher',
-      use: i,
-      address: logs[i].address
+      use: logged[1],
+      address: logs[logged[1]].address
    });
   } else {
     res.json({
