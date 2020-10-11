@@ -54,8 +54,10 @@ app.get("/a3/l/q/a/t/tl", function(req, res) {
   var fileName = userProfile["username"];
 
   if(q.auth == userProfile.address) {
-    var tests = fs.readFileSync('./bank/'+fileName+'.json');
-    tests = JSON.parse(tests);
+    try { 
+      var tests = fs.readFileSync('./bank/'+fileName+'.json');
+      tests = JSON.parse(tests);
+    } catch(e) { res.json([]) }
 
     var bank = new Array();
 
