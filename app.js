@@ -20,9 +20,8 @@ app.post('/a3/l/q/a/l', function(req, res) {
   var Stamp   = req.query.stamp;
   var Form    = req.query.form;
   
-  var Data = atob(req.body);
-  console.log(Data);
-  Data = JSON.parse(Data);
+  // console.log(Data);
+  // Data = JSON.parse(Data);
   console.log(Data);
   Data = atob(Data.data);
   console.log(Data);
