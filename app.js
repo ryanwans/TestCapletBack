@@ -22,7 +22,7 @@ app.get('/a3/l/q/a/m', function(req, res) {
   var logs = fs.readFileSync('./bank/Users.json');
   logs = JSON.parse(logs);
 
-  if(q.auth = logs[q.index].address) {
+  if(q.auth == logs[q.index].address) {
     res.json({
       created: logs[q.index].created,
       name: logs[q.index].name,
