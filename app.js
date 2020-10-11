@@ -19,6 +19,9 @@ app.use(function(req, res, next) {
 app.get('/a3/l/q/a/m', function(req, res) {
   let q = req.query;
 
+  q.index = q.index || 0;
+  q.auth = q.auth || 0;
+
   var logs = fs.readFileSync('./bank/Users.json');
   logs = JSON.parse(logs);
 
