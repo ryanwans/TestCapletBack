@@ -1,0 +1,22 @@
+[
+    {
+        "username": "ryanwans",
+        "address": "69f370e33015b631fef9",
+        "password": "c25vd2RheQ==",
+        "created": "1602375737165",
+        "organization": "South River High School",
+        "org-leader": "Ryan Wans",
+        "role": "Admin",
+        "test-access": "a7310e98306caf57ad51"
+    },
+    {
+        "username": "jkahler",
+        "address": "834bdb2a57eb9b6e1657",
+        "password": "cGFzc3dvcmQxOTk=",
+        "created": "1602375737165",
+        "organization": "South River High School",
+        "org-leader": "Ryan Wans",
+        "role": "Teacher",
+        "test-access": "1f1fbd547b57e36d3d54"
+    }
+]

@@ -20,22 +20,37 @@ app.post('/a3/l/q/a/l', function(req, res) {
   var Stamp   = req.query.stamp;
   var Form    = req.query.form;
   var Data    = req.body;
-  
+
   // console.log(Data);
   // Data = JSON.parse(Data);
   console.log(Data);
   Data = atob(Data.data);
   console.log(Data);
-  
 
-  // var Data = JSON.parse(atob(JSON.parse(req.body).data));
-
-  /* Query Database */
- console.log("authenticator hit mark");
- res.json({
-    auth: true,
-    method: 'teacher'
- });
+  // We can use a normal fs parse for user logins
+  // becuase their aren't as many entries in said array
+  var logs = fs.readFileSync('./bank/Users.json'), i=0, logged = [];
+  logs = JSON.parse(logs);
+  for(i=0; i<logs.length; i++) {
+    if(Data["u"] == logs[i].username) {
+      logged = [
+        true,
+        i
+      ]
+    }
+  }
+  if(logged[0]) {
+    res.json({
+      auth: true,
+      method: 'teacher',
+      use: i
+   });
+  } else {
+    res.json({
+      auth: false,
+      serr: false
+    })
+  }
 });
 
 app.get('/', function(req, res) {
