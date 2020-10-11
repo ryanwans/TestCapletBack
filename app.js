@@ -19,6 +19,7 @@ app.use(function(req, res, next) {
 app.post('/a3/l/q/a/l', function(req, res) {
   var Stamp   = req.query.stamp;
   var Form    = req.query.form;
+  var Data    = req.body;
   
   // console.log(Data);
   // Data = JSON.parse(Data);
