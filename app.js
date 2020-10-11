@@ -57,20 +57,20 @@ app.get("/a3/l/q/a/t/tl", function(req, res) {
     try { 
       var tests = fs.readFileSync('./bank/'+fileName+'.json');
       tests = JSON.parse(tests);
+      var bank = new Array();
+
+      for(let i=0; i < Object.keys(tests).length; i++) {
+        bank.push({
+          code: Object.keys(tests)[i],
+          name: Object.values(tests)[i].name,
+          tuid: Object.values(tests)[i].tuid,
+          meta: Object.values(tests)[i].meta
+        })
+      }
+
+      res.json(bank);
     } catch(e) { res.json([]) }
 
-    var bank = new Array();
-
-    for(let i=0; i < Object.keys(tests).length; i++) {
-      bank.push({
-        code: Object.keys(tests)[i],
-        name: Object.values(tests)[i].name,
-        tuid: Object.values(tests)[i].tuid,
-        meta: Object.values(tests)[i].meta
-      })
-    }
-
-    res.json(bank);
   } else {
     res.json( {
       "<?>": null
