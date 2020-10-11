@@ -4,6 +4,7 @@
         "address": "69f370e33015b631fef9",
         "password": "c25vd2RheQ==",
         "created": "1602375737165",
+        "name": "Ryan Wans",
         "organization": "South River High School",
         "org-leader": "Ryan Wans",
         "role": "Admin",
@@ -11,6 +12,7 @@
     },
     {
         "username": "jkahler",
+        "name": "Jason Kahler",
         "address": "834bdb2a57eb9b6e1657",
         "password": "cGFzc3dvcmQxOTk=",
         "created": "1602375737165",

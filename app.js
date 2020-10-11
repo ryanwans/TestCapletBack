@@ -16,6 +16,27 @@ app.use(function(req, res, next) {
   next();
 });
 
+app.get('/a3/l/q/a/m', function(req, res) {
+  let q = req.query;
+
+  var logs = fs.readFileSync('./bank/Users.json');
+  logs = JSON.parse(logs);
+
+  if(q.auth = logs[q.index].address) {
+    res.json({
+      created: logs[q.index].created,
+      name: logs[q.index].name,
+      org: logs[q.index].organization,
+      orgLeader: logs[q.index]["org-leader"],
+      role: logs[q.index].role,
+    })
+  } else {
+    res.json({
+      "<?>": null
+    })
+  }
+});
+
 app.post('/a3/l/q/a/l', function(req, res) {
   var Stamp   = req.query.stamp;
   var Form    = req.query.form;
@@ -31,7 +52,6 @@ app.post('/a3/l/q/a/l', function(req, res) {
   var logs = fs.readFileSync('./bank/Users.json'), i=0, logged = [];
   logs = JSON.parse(logs);
   for(i=0; i<logs.length; i++) {
-    console.log(Data["u"], logs[i].username);
     if(Data["u"] == logs[i].username) {
       if(Data["p"] == logs[i].password) {
         logged = [
@@ -45,7 +65,8 @@ app.post('/a3/l/q/a/l', function(req, res) {
     res.json({
       auth: true,
       method: 'teacher',
-      use: i
+      use: i,
+      address: logs[i].address
    });
   } else {
     res.json({
