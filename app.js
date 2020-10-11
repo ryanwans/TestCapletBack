@@ -19,7 +19,10 @@ app.get('/a3/l/q/a/l', function(req, res) {
   var Stamp   = req.query.stamp;
   var Form    = req.query.form;
   
-  var Data = JSON.parse(atob(JSON.parse(req.body).data));
+  var Data = atob(req.body);
+  Data = JSON.parse(Data);
+  Data = atob(Data.data);
+  console.log(Data);
   
   /* Query Database */
  
