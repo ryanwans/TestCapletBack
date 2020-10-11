@@ -1,10 +1,28 @@
 {
-    "6X5JTB": {
+    "6X5JTBO8": {
         "name": "Sample Test 10 Questions",
         "tuid": "f6fa11316fd88d73af3a",
         "creator": "ryanwans",
         "meta": {
             "count": 10,
+            "total": 10,
+            "randomOrder": true,
+            "randomQs": true,
+            "useLive": true,
+            "open": false,
+            "time": null,
+            "wProtect": true
+        }
+    },
+    "S8H68AH1": {
+        "name": "FBLA Short Sampler Quiz",
+        "tuid": "2c9cf1eed41ca46bd49e",
+        "creator": "ryanwans",
+        "meta": {
+            "count": 10,
+            "total": 50,
+            "randomOrder": true,
+            "randomQs": true,
             "useLive": true,
             "open": false,
             "time": null,

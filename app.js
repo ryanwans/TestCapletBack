@@ -40,6 +40,42 @@ app.get('/a3/l/q/a/m', function(req, res) {
   }
 });
 
+app.get("/a3/l/q/a/t/tl", function(req, res) {
+  let q = req.query;
+
+  q.index = q.index || 0;
+  q.auth = q.auth || 0;
+
+  var users = fs.readFileSync('./bank/Users.json');
+  users = JSON.parse(users);
+
+  var userProfile = users[q.index];
+
+  var fileName = userProfile["username"];
+
+  if(q.auth == userProfile.address) {
+    var tests = fs.readFileSync('./bank/'+fileName+'.json');
+    tests = JSON.parse(tests);
+
+    var bank = new Array();
+
+    for(let i=0; i < Object.keys(tests).length; i++) {
+      bank.push({
+        code: Object.keys(tests)[i],
+        name: Object.values(tests)[i].name,
+        tuid: Object.values(tests)[i].tuid,
+        meta: Object.values(tests)[i].meta
+      })
+    }
+
+    res.json(bank);
+  } else {
+    res.json( {
+      "<?>": null
+    })
+  }
+});
+
 app.post('/a3/l/q/a/l', function(req, res) {
   var Stamp   = req.query.stamp;
   var Form    = req.query.form;
