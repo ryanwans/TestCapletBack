@@ -51,12 +51,15 @@ app.get("/a3/l/q/a/t/tl", function(req, res) {
 
   var userProfile = users[q.index];
 
-  var fileName = userProfile["username"];
+  var username = userProfile["username"];
 
   if(q.auth == userProfile.address) {
     try { 
-      var tests = fs.readFileSync('./bank/'+fileName+'.json');
+      var tests = fs.readFileSync('./bank/TestRepo.json');
       tests = JSON.parse(tests);
+
+      tests = tests[username];
+
       var bank = new Array();
 
       for(let i=0; i < Object.keys(tests).length; i++) {
@@ -118,7 +121,27 @@ app.post('/a3/l/q/a/l', function(req, res) {
       })
     }
   } else if (Data.m == "student") {
-    console.log("student")
+    var code = Data.c;
+    var codeFile = fs.readFileSync('./bank/CodeRepo.json');
+    codeFile = JSON.parse(codeFile);
+    var keys = Object.keys(codeFile);
+
+    if(keys.includes(code)) {
+      var username = codeFile[code].o;
+      
+      var TestFile = fs.readFileSync('./bank/TestRepo.json');
+      TestFile = JSON.parse(TestFile);
+      var final = TestFile[username][code];
+      final.auth = true;
+      final.serr = false;
+
+      res.json(final);
+    } else {
+      res.json({
+        auth: false,
+        serr: false
+      })
+    }
   } else {
     res.json({
       auth: false,
