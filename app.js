@@ -90,31 +90,43 @@ app.post('/a3/l/q/a/l', function(req, res) {
 
   // We can use a normal fs parse for user logins
   // becuase their aren't as many entries in said array
-  var logs = fs.readFileSync('./bank/Users.json'), i=0, logged = [];
-  logs = JSON.parse(logs);
-  for(i=0; i<logs.length; i++) {
-    if(Data["u"] == logs[i].username) {
-      if(Data["p"] == logs[i].password) {
-        logged = [
-          true,
-          i
-        ]
+  if(Data.m == "teacher") {
+    console.log("teacher");
+    var logs = fs.readFileSync('./bank/Users.json'), i=0, logged = [];
+    logs = JSON.parse(logs);
+    for(i=0; i<logs.length; i++) {
+      if(Data["u"] == logs[i].username) {
+        if(Data["p"] == logs[i].password) {
+          logged = [
+            true,
+            i
+          ]
+        }
       }
     }
-  }
-  if(logged[0]) {
-    res.json({
-      auth: true,
-      method: 'teacher',
-      use: logged[1],
-      address: logs[logged[1]].address
-   });
+    if(logged[0]) {
+      res.json({
+        auth: true,
+        method: 'teacher',
+        use: logged[1],
+        address: logs[logged[1]].address
+    });
+    } else {
+      res.json({
+        auth: false,
+        serr: false
+      })
+    }
+  } else if (Data.m == "student") {
+    console.log("student")
   } else {
     res.json({
       auth: false,
-      serr: false
+      serr: false,
+      message: "invalid packet"
     })
   }
+  
 });
 
 app.get('/', function(req, res) {
