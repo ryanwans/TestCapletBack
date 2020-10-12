@@ -1,0 +1,178 @@
+[
+    {
+        "_id": "9ee4bdf4dde151a4",
+        "_index": 0,
+        "_data": {
+            "qType": 0,
+            "qValue": "Which of the following values equates to the number 1?",
+            "qAns": {
+                "0": "2",
+                "1": "0",
+                "2": "1",
+                "3": "9"
+            },
+            "qBucket": [0, 0, 1, 0],
+            "qShorthand": 2
+        },
+        "_meta": {
+            "useStreaming": true,
+            "maxAttempts": 1,
+            "maxTime": null,
+            "dualAuth": true
+        }
+    },
+    {
+        "_id": "3a9bc4931cc55236",
+        "_index": 1,
+        "_data": {
+            "qType": 1,
+            "qValue": "Match the following definitions to their respective value.",
+            "qAns": {
+                "keys": {
+                    "0": "This is Key 1",
+                    "1": "This is Key 2",
+                    "2": "This is Key 3",
+                    "3": "This is Key 4"
+                },
+                "values": {
+                    "0": "This is Value 2",
+                    "1": "This is Value 4",
+                    "2": "This is Value 1",
+                    "3": "This is Value 3"
+                }
+            },
+            "qBucket": {
+                "0": "2",
+                "1": "0",
+                "2": "3",
+                "3": "1"
+            },
+            "qShorthand": "02102331"
+        },
+        "_meta": {
+            "useStreaming": true,
+            "maxAttempts": 1,
+            "maxTime": null,
+            "dualAuth": true
+        }
+    },
+    {
+        "_id": "926c89c91e8b1ddd",
+        "_index": 2,
+        "_data": {
+            "qType": 2,
+            "qValue": "Fill in the blank.",
+            "qAns": {
+                "keys": {
+                    "0": "The number ::$ also equates as 1",
+                    "1": "The number ::$ also equates as 5",
+                    "2": "The number ::$ also equates as 9",
+                    "3": "The number ::$ also equates as 2"
+                },
+                "values": {
+                    "0": "one",
+                    "1": "nine",
+                    "2": "five",
+                    "3": "two"
+                }
+            },
+            "qBucket": {
+                "0": "0",
+                "1": "2",
+                "2": "1",
+                "3": "3"
+            },
+            "qShorthand": "00122133"
+        },
+        "_meta": {
+            "useStreaming": true,
+            "maxAttempts": 1,
+            "maxTime": null,
+            "dualAuth": true
+        }
+    },
+    {
+        "_id": "cb55783a3ceaed68",
+        "_index": 3,
+        "_data": {
+            "qType": 3,
+            "qValue": "True of False: Is the number 9 also the number 7?",
+            "qAns": "::$",
+            "qBucket": [false],
+            "qShorthand": 0
+        },
+        "_meta": {
+            "useStreaming": true,
+            "maxAttempts": 1,
+            "maxTime": null,
+            "dualAuth": true
+        }
+    },
+    {
+        "_id": "b9a24b11d9558e77",
+        "_index": 4,
+        "_data": {
+            "qType": 4,
+            "qValue": "Choose all of the answers that numbers between 0 and 9",
+            "qAns": {
+                "0": "Number 6",
+                "1": "Number 2",
+                "2": "Number 99",
+                "3": "Number 12",
+                "4": "Number 4",
+                "5": "Number -1"
+            },
+            "qBucket": [1,1,0,0,1,0],
+            "qShorthand": "014"
+        },
+        "_meta": {
+            "useStreaming": true,
+            "maxAttempts": 1,
+            "maxTime": null,
+            "dualAuth": true
+        }
+    },
+    {
+        "_id": "1684ec884ab6ce85",
+        "_index": 5,
+        "_data": {
+            "qType": 5,
+            "qValue": "Using the slider, select the year of the Y2K problem.",
+            "qAns": "::$",
+            "qBucket": null,
+            "qShorthand": "2000"
+        },
+        "_meta": {
+            "useStreaming": true,
+            "maxAttempts": 1,
+            "maxTime": null,
+            "dualAuth": true
+        }
+    },
+    {
+        "_id": "324c7fa3fc98831c",
+        "_index": 6,
+        "_data": {
+            "qType": 6,
+            "qValue": "Using the table below, select the right answers.",
+            "qAns": {
+                "C": ["True", "False", "Error"],
+                "R": [
+                    "1 == 1",
+                    "0 == 2", 
+                    "4 == '5'",
+                    "3 == 3", 
+                    "-1 == -1"
+                ]
+            },
+            "qBucket": [0,1,2,0,0],
+            "qShorthand": "01200"
+        },
+        "_meta": {
+            "useStreaming": true,
+            "maxAttempts": 1,
+            "maxTime": null,
+            "dualAuth": true
+        }
+    }
+]

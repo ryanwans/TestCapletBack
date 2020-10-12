@@ -10,7 +10,7 @@
                 "randomQs": true,
                 "useLive": true,
                 "open": false,
-                "time": null,
+                "time": 300000,
                 "wProtect": true
             }
         },
