@@ -23,6 +23,8 @@ app.get('/a3/ported/t/gTD/a', function(req, res) {
   q.auth = q.auth || 0;
   q.index = q.index || 0;
 
+      var TestFile = "./bank/tests/"+q.testCode+".json"
+
       var data;
       try {
         data = fs.readFileSync(TestFile);
