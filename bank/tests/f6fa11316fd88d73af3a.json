@@ -96,7 +96,7 @@
         "_index": 3,
         "_data": {
             "qType": 3,
-            "qValue": "True of False: Is the number 9 also the number 7?",
+            "qValue": "Is the number 9 also the number 7?",
             "qAns": "::$",
             "qBucket": [false],
             "qShorthand": 0

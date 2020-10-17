@@ -4,8 +4,8 @@
             "name": "Sample Test 10 Questions",
             "tuid": "f6fa11316fd88d73af3a",
             "meta": {
-                "count": 10,
-                "total": 10,
+                "count": 7,
+                "total": 7,
                 "randomOrder": true,
                 "randomQs": true,
                 "useLive": true,
