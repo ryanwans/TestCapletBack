@@ -23,24 +23,6 @@ app.get('/a3/ported/t/gTD/a', function(req, res) {
   q.auth = q.auth || 0;
   q.index = q.index || 0;
 
-  // Capture and authenticate this user
-  var logs = fs.readFileSync('./bank/Users.json');
-  logs = JSON.parse(logs);
-
-  if(q.auth == logs[q.index].address) {
-    var Username = logs[q.index].username;
-
-    // Cool, we have the username of the user
-    // now lets find the target test
-    var tests = fs.readFileSync('./bank/TestRepo.json');
-    tests = JSON.parse(tests);
-
-    if(tests[Username][q.testCode]) {
-      var TestFile = "./bank/tests/" + tests[Username][q.testCode].tuid + ".json";
-
-      // And now we have the test file target.
-      // Finally, lets parse the non-sensitive data
-      // back to the client software.
       var data;
       try {
         data = fs.readFileSync(TestFile);
@@ -71,17 +53,7 @@ app.get('/a3/ported/t/gTD/a', function(req, res) {
         res.json({
           "crit": "This test code is allocated but contains no reciprocating target file. (Corrupted Test Data)"
         })
-      }
-    } else {
-      res.json({
-        "<?>": null
-      })
-    }
-  } else {
-    res.json({
-      "<?>": null
-    })
-  }
+      };
 }); 
 
 app.get('/a3/l/q/a/m', function(req, res) {
