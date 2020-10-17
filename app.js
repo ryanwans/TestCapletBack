@@ -16,6 +16,67 @@ app.use(function(req, res, next) {
   next();
 });
 
+app.get('/a3/ported/t/gTD/a', function(req, res) {
+  var q = req.query;
+
+  q.testCode = q.testCode || 0;
+  q.auth = q.auth || 0;
+  q.index = q.index || 0;
+
+  // Capture and authenticate this user
+  var logs = fs.readFileSync('./bank/Users.json');
+  logs = JSON.parse(logs);
+
+  if(q.auth == logs[q.index].address) {
+    var Username = logs[q.index].username;
+
+    // Cool, we have the username of the user
+    // now lets find the target test
+    var tests = fs.readFileSync('./bank/TestRepo.json');
+    tests = JSON.parse(tests);
+
+    if(tests[Username][q.testCode]) {
+      var TestFile = "./bank/tests/" + tests[Username][q.testCode].tuid + ".json";
+
+      // And now we have the test file target.
+      // Finally, lets parse the non-sensitive data
+      // back to the client software.
+      var data = fs.readFileSync(TestFile);
+      data = JSON.parse(data);
+
+      if(data) {
+        var ClientTestData = new Array();
+
+        for(let i=0; i < data.length; i++) {
+          var t = data[i]
+          ClientTestData.push({
+            "questionID": t["_id"],
+            "questionIndex": t["_index"],
+            "recipIndex": i,
+            "questionType": t["_data"]["qType"],
+            "questionValue": t["_data"]["qValue"],
+            "questionOptions": t["_data"]["qAns"]
+          })
+        };
+
+        res.json(ClientTestData);
+      } else {
+        res.json({
+          "crit": "This test code is allocated but contains no reciprocating target file. (Corrupted Test Data)"
+        })
+      }
+    } else {
+      res.json({
+        "<?>": null
+      })
+    }
+  } else {
+    res.json({
+      "<?>": null
+    })
+  }
+}); 
+
 app.get('/a3/l/q/a/m', function(req, res) {
   let q = req.query;
 
