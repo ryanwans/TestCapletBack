@@ -4,7 +4,25 @@ var btoa = require('btoa'),
     atob = require('atob'),
     fs = require('fs')
     bp = require('body-parser'),
-    https = require('https');
+    https = require('https'),
+    http = require('http'),
+    tHtt = http.createServer(app);
+
+var privateKey, certificate, ca, credentials;
+
+privateKey = fs.readFileSync('./private.pem', 'utf8');
+certificate = fs.readFileSync('./cert.pem', 'utf8');
+//ca = fs.readFileSync('/etc/letsencrypt/live/ryanwans.com/chain.pem', 'utf8');
+credentials = {key: privateKey,cert: certificate};
+
+const httpsServer = https.createServer(credentials, app);
+
+var io = require('socket.io')(httpsServer);
+var UserPool = new Object();
+
+io.on('connection', (socket) => {
+  console.log('new connection');
+})
 
 app.use(bp.json());
 app.use(bp.urlencoded({
@@ -191,21 +209,15 @@ app.post('/a3/l/q/a/l', function(req, res) {
       message: "invalid packet"
     })
   }
-  
-});
+  });
+
+
 
 app.get('/', function(req, res) {
-	res.send("Test Caplet Backend API v3. Have a good day!");
+  // res.send("Test Caplet Backend API v3. Have a good day!");
+  res.sendFile('./SocketTest.html', {root: __dirname});
 });
 
-var privateKey, certificate, ca, credentials;
-
-privateKey = fs.readFileSync('./private.pem', 'utf8');
-certificate = fs.readFileSync('./cert.pem', 'utf8');
-//ca = fs.readFileSync('/etc/letsencrypt/live/ryanwans.com/chain.pem', 'utf8');
-credentials = {key: privateKey,cert: certificate};
-
-const httpsServer = https.createServer(credentials, app);
 httpsServer.listen(8080, () => {
     console.log('HTTPS Server running on port 8080 redirecting 443');
 });
