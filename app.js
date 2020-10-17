@@ -41,8 +41,15 @@ app.get('/a3/ported/t/gTD/a', function(req, res) {
       // And now we have the test file target.
       // Finally, lets parse the non-sensitive data
       // back to the client software.
-      var data = fs.readFileSync(TestFile);
-      data = JSON.parse(data);
+      var data;
+      try {
+        data = fs.readFileSync(TestFile);
+        data = JSON.parse(data);
+      } catch(e) {
+        res.json({
+          "crit": "This test code is allocated but contains no reciprocating target file. (Corrupted Test Data)"
+        })
+      }
 
       if(data) {
         var ClientTestData = new Array();
