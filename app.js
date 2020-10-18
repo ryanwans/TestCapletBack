@@ -20,7 +20,7 @@ const httpsServer = https.createServer(credentials, app);
 var io = require('socket.io')(httpsServer);
 var UserPool = new Object();
 
-io.on('connection', (socket) => {
+io.of('/a3/sockets/sss').on('connection', (socket) => {
   console.log('new connection');
 
   socket.on('approval-request', (Auth) => {
