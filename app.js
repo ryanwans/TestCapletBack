@@ -22,8 +22,12 @@ var UserPool = new Object();
 
 io.on('connection', (socket) => {
   console.log('new connection');
+
   socket.on('approval-request', (Auth) => {
     console.log(Auth);
+  });
+  io.on('approval-request', (a) => {
+    console.log(a);
   })
 })
 
