@@ -22,6 +22,9 @@ var UserPool = new Object();
 
 io.on('connection', (socket) => {
   console.log('new connection');
+  socket.on('approval-request', (Auth) => {
+    console.log(Auth);
+  })
 })
 
 app.use(bp.json());
@@ -211,11 +214,9 @@ app.post('/a3/l/q/a/l', function(req, res) {
   }
   });
 
-
-
 app.get('/', function(req, res) {
-  // res.send("Test Caplet Backend API v3. Have a good day!");
-  res.sendFile('./SocketTest.html', {root: __dirname});
+  res.send("Test Caplet Backend API v3. Have a good day!");
+  //res.sendFile('./SocketTest.html', {root: __dirname});
 });
 
 httpsServer.listen(8080, () => {
