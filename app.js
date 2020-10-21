@@ -42,6 +42,7 @@ io.of('/a3/sockets/sss').on('connection', (socket) => {
       var route = Auth.routing;
       if(route.target in Namespace) {
         Namespace[route.target]['clients'][route.id] = route;
+        console.log(route)
         socket.emit(Auth.return, {
           status: true,
           code: (Namespace[route.target]['lockStatus']) ? 'xx3' : 'xx2',
