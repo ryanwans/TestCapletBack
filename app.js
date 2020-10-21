@@ -33,6 +33,7 @@ Namespace["f6fa11316fd88d73af3a"] = {
 // xx2 - Test is still locked
 // xx3 - Test is nominal
 // xx4 - Test locking was triggered
+// xx5 - Data aknowledged
 
 io.of('/a3/sockets/sss').on('connection', (socket) => {
   console.log('new connection');
@@ -76,6 +77,15 @@ io.of('/a3/sockets/sss').on('connection', (socket) => {
       }
     }
   });
+  socket.on('tcio-data', (data) => {
+    if(data.purpose == 'status-update') {
+      Namespace[data.routing.target]['clients'][data.routing.id].status = data.status;
+      socket.emit(data.return, {
+        status: true,
+        code: 'xx5'
+      })
+    }
+  })
   io.on('approval-request', (a) => {
     console.log(a);
   })
