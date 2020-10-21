@@ -19,6 +19,7 @@ const httpsServer = https.createServer(credentials, app);
 
 var io = require('socket.io')(httpsServer);
 var Namespace = new Object();
+var WaitingRoom = new Object();
 
 // Code Status Cheat Sheet
 // xx1 - Teacher has not yet started the live testing
@@ -43,6 +44,8 @@ io.of('/a3/sockets/sss').on('connection', (socket) => {
           }
         });
       } else {
+        WaitingRoom[route.target] = WaitingRoom[route.target] || new Array();
+        WaitingRoom[route.target].push(Auth.return);
         socket.emit(Auth.return, {
           status: false,
           code: 'xx1',
