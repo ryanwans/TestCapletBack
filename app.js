@@ -21,6 +21,13 @@ var io = require('socket.io')(httpsServer);
 var Namespace = new Object();
 var WaitingRoom = new Object();
 
+// Manual test. Upon a teacher opening a test,
+// this object will automatically draft.
+Namespace["f6fa11316fd88d73af3a"] = {
+  clients: {},
+  lockStatus = false
+}
+
 // Code Status Cheat Sheet
 // xx1 - Teacher has not yet started the live testing
 // xx2 - Test is still locked
