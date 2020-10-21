@@ -41,8 +41,22 @@ io.of('/a3/sockets/sss').on('connection', (socket) => {
     if(Auth.purpose == 'routing') {
       var route = Auth.routing;
       if(route.target in Namespace) {
-        Namespace[route.target]['clients'][route.id] = route;
-        console.log(route)
+        Namespace[route.target]['clients'][route.id] = {
+          name: route.name,
+          stage: route.stage,
+          id: route.id,
+          route: Auth.return,
+          status: {
+            testing: false,
+            activeQ: null,
+            answers: null,
+            elapsed: null,
+            wpFire: false,
+            submit: false,
+            score: null
+          }
+        };
+        console.log(Namespace[route.target]);
         socket.emit(Auth.return, {
           status: true,
           code: (Namespace[route.target]['lockStatus']) ? 'xx3' : 'xx2',
