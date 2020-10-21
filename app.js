@@ -18,13 +18,38 @@ credentials = {key: privateKey,cert: certificate};
 const httpsServer = https.createServer(credentials, app);
 
 var io = require('socket.io')(httpsServer);
-var UserPool = new Object();
+var Namespace = new Object();
+
+// Code Status Cheat Sheet
+// xx1 - Teacher has not yet started the live testing
+// xx2 - Test is still locked
+// xx3 - Test is nominal
+// xx4 - Test locking was triggered
 
 io.of('/a3/sockets/sss').on('connection', (socket) => {
   console.log('new connection');
 
   socket.on('approval-request', (Auth) => {
-    console.log(Auth);
+    if(Auth.purpose == 'routing') {
+      var route = Auth.routing;
+      if(route.target in Namespace) {
+        Namespace[route.target]['clients'][route.id] = route;
+        socket.emit(Auth.return, {
+          status: true,
+          code: (Namespace[route.target]['lockStatus']) ? 'xx3' : 'xx2',
+          wait: false,
+          syncR: {
+            t: true
+          }
+        });
+      } else {
+        socket.emit(Auth.return, {
+          status: false,
+          code: 'xx1',
+          wait: true
+        })
+      }
+    }
   });
   io.on('approval-request', (a) => {
     console.log(a);
