@@ -25,7 +25,7 @@ var WaitingRoom = new Object();
 // this object will automatically draft.
 Namespace["f6fa11316fd88d73af3a"] = {
   clients: {},
-  lockStatus = false
+  lockStatus: false
 }
 
 // Code Status Cheat Sheet
