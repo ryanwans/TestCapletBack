@@ -138,9 +138,11 @@ app.get('/a3/ported/t/gTD/a', function(req, res) {
 
         res.json(ClientTestData);
       } else {
-        res.json({
-          "crit": "This test code is allocated but contains no reciprocating target file. (Corrupted Test Data)"
-        })
+        try {
+          res.json({
+            "crit": "This test code is allocated but contains no reciprocating target file. (Corrupted Test Data)"
+          })
+        } catch(e) {}
       };
 }); 
 
