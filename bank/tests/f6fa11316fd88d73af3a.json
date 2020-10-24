@@ -63,18 +63,18 @@
             "qType": 2,
             "qValue": "Fill in the blank.",
             "qAns": {
-                "keys": {
-                    "0": "The number ::$ also equates as 1",
-                    "1": "The number ::$ also equates as 5",
-                    "2": "The number ::$ also equates as 9",
-                    "3": "The number ::$ also equates as 2"
-                },
-                "values": {
-                    "0": "one",
-                    "1": "nine",
-                    "2": "five",
-                    "3": "two"
-                }
+                "keys": [
+                    "The number ::$ also equates as 1",
+                    "The number ::$ also equates as 5",
+                    "The number nine also equates as ::$",
+                    "The number ::$ also equates as 2"
+                ],
+                "values": [
+                    "one",
+                    "9",
+                    "five",
+                    "two"
+                ]
             },
             "qBucket": {
                 "0": "0",
