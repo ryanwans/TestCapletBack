@@ -103,6 +103,7 @@ app.use(function(req, res, next) {
 });
 
 app.get('/a3/ported/qgr/enco/new/now/result=json', function(req, res) {
+  console.log(JSON.stringify(req.body))
   res.send("5");
 })
 
