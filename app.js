@@ -335,7 +335,7 @@ const GradeTestData = (TestData) => {
       if(fstr == Q["_data"].qShorthand) {points++;}
     }
     console.log(points);
-    return toString(points);
+    return points;
   }
 }
 
