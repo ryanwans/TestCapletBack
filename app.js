@@ -301,10 +301,10 @@ const GradeTestData = (TestData) => {
     if(type == 0) {
       // multichoice - shorthand
       console.log(Answers[i] + ":" + Q["_data"].qShorthand);
-      if(Answers[i] == Q["_data"].qShorthand) {points++;}
+      if(Answers[i] == Q["_data"].qShorthand) {points++;console.log("was correct.");}
     } else if (type == 1) {
       // matching - deprecated so give a full point
-      points++;
+      points++;console.log("was correct.");
     } else if (type == 2) {
       // fill in the blank - shorthand
       var fstr = "";
@@ -312,11 +312,11 @@ const GradeTestData = (TestData) => {
         fstr = fstr + Object.keys(Answers[i])[r] + Object.values(Answers[i])[r]
       }
       console.log(fstr + ":" + Q["_data"].qShorthand);
-      if(fstr == Q["_data"].qShorthand) {points++;}
+      if(fstr == Q["_data"].qShorthand) {points++;console.log("was correct.");}
     } else if (type == 3) {
       // true or false - shorthand
       console.log(Answers[i] + ":" + Q["_data"].qShorthand);
-      if(Answers[i] == Q["_data"].qShorthand) {points++;}
+      if(Answers[i] == Q["_data"].qShorthand) {points++;console.log("was correct.");}
     } else if (type == 4) {
       // multianswer - bucket
       Answers[i] = Answers[i].sort(function(a, b) {
@@ -326,11 +326,11 @@ const GradeTestData = (TestData) => {
         return a - b;
       });
       console.log(Answers[i] + ":" + compr);
-      if(Answers[i] == compr) {points++;}
+      if(Answers[i] == compr) {points++;console.log("was correct.");}
     } else if (type == 5) {
       // slider - bucket
       console.log(Answers[i] + ":" + Q["_data"].qBucket);
-      if(Answers[i] == Q["_data"].qBucket) {points++;}
+      if(Answers[i] == Q["_data"].qBucket) {points++;console.log("was correct.");}
     } else if (type == 6) {
       // table - shorthand
       var fstr = "";
@@ -338,7 +338,7 @@ const GradeTestData = (TestData) => {
         fstr = fstr + Answers[i][r];
       }
       console.log(fstr + ":" + Q["_data"].qShorthand);
-      if(fstr == Q["_data"].qShorthand) {points++;}
+      if(fstr == Q["_data"].qShorthand) {points++;console.log("was correct.");}
     }
   }
   console.log(points);
