@@ -103,8 +103,8 @@ app.use(function(req, res, next) {
 });
 
 app.post('/a3/ported/qgr/enco/new/now/result=json', function(req, res) {
-  console.log(JSON.stringify(req.body), req.body)
-  res.send("5");
+  var Data = req.body;
+  res.send(GradeTestData(Data));
 })
 
 app.get('/a3/ported/t/gTD/a', function(req, res) {
@@ -285,6 +285,59 @@ app.post('/a3/l/q/a/l', function(req, res) {
     })
   }
   });
+
+const GradeTestData = (TestData) => {
+  var Answers = JSON.parse(atob(TestData.data));
+  console.log(Answers);
+
+  var file = fs.readFileSync('./bank/tests/'+TestData.tuid+".json", {root: __dirname});
+  file = JSON.parse(file); 
+
+  var points = 0;
+
+  for(let i=0; i<file.length; i++) {
+    var Q = file[i];
+    var type = Q["_data"]["qType"];
+    if(type == 0) {
+      // multichoice - shorthand
+      if(Answers[i] == Q["_data"].qShorthand) {points++;}
+    } else if (type == 1) {
+      // matching - deprecated so give a full point
+      points++;
+    } else if (type == 2) {
+      // fill in the blank - shorthand
+      var fstr = "";
+      for(let r=0; r<Object.keys(Answers[i]).length; r++) {
+        fstr = fstr + Object.keys(Answers[i])[r] + Object.values(Answers[i])[r]
+      }
+      if(fstr == Q["_data"].qShorthand) {points++;}
+    } else if (type == 3) {
+      // true or false - shorthand
+      if(Answers[i] == Q["_data"].qShorthand) {points++;}
+    } else if (type == 4) {
+      // multianswer - bucket
+      Answers[i] = Answers[i].sort(function(a, b) {
+        return a - b;
+      });
+      var compr = Q["_data"].qBucket.sort(function(a, b) {
+        return a - b;
+      });
+      if(Answers[i] == compr) {points++;}
+    } else if (type == 5) {
+      // slider - bucket
+      if(Answers[i] == Q["_data"].qBucket) {points++;}
+    } else if (type == 6) {
+      // table - shorthand
+      var fstr = "";
+      for(let r=0; r<Object.keys(Answers[i]); r++) {
+        fstr = fstr + Answers[i][r];
+      }
+      if(fstr == Q["_data"].qShorthand) {points++;}
+    }
+    console.log(points);
+    return toString(points);
+  }
+}
 
 app.get('/', function(req, res) {
   res.send("Test Caplet Backend API v3. Have a good day!");
