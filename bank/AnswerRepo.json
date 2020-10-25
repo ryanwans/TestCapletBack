@@ -1,1 +1,21 @@
-{"f6fa11316fd88d73af3a":{"cnlhbndhbnM=":{"testing":false,"activeQ":5,"answers":{"0":2,"1":{"0":"0","1":"2","2":"1","3":"3"},"2":0,"3":[0,1,4],"4":2,"5":[0,1,2,0,0]},"elapsed":31137,"wpFire":false,"submit":true,"score":null}},"2c9cf1eed41ca46bd49e":{}}
+{
+	"f6fa11316fd88d73af3a": {
+		"cnlhbndhbnM=": {
+			"testing": false,
+			"activeQ": 5,
+			"answers": {
+				"0": 2,
+				"1": { "0": "0", "1": "2", "2": "1", "3": "3" },
+				"2": 0,
+				"3": [ 0, 1, 4 ],
+				"4": 2,
+				"5": [ 0, 1, 2, 0, 0 ]
+			},
+			"elapsed": 31137,
+			"wpFire": false,
+			"submit": true,
+			"score": null
+		}
+	},
+	"2c9cf1eed41ca46bd49e": {}
+}

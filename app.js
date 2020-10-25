@@ -108,7 +108,12 @@ app.use(function(req, res, next) {
 
 app.post('/a3/ported/qgr/enco/new/now/result=json', function(req, res) {
   var Data = req.body;
-  res.json([GradeTestData(Data)]);
+  var Grade = GradeTestData(Data);
+  var f = fs.readFileSync('./bank/AnswerRepo.json', {root: __dirname});
+  f = JSON.parse(f);
+  f[Data.tuid][Data.name].score = Grade;
+  fs.writeFileSync('./bank/AnswerRepo.json', JSON.stringify(f), {root: __dirname});
+  res.json(Grade);
 })
 
 app.get('/a3/ported/t/gTD/a', function(req, res) {
