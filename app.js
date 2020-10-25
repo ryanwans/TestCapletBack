@@ -102,8 +102,8 @@ app.use(function(req, res, next) {
   next();
 });
 
-app.get('/a3/ported/qgr/enco/new/now/result=json', function(req, res) {
-  console.log(JSON.stringify(req.body))
+app.post('/a3/ported/qgr/enco/new/now/result=json', function(req, res) {
+  console.log(JSON.stringify(req.body), req.body)
   res.send("5");
 })
 
