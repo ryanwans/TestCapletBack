@@ -325,8 +325,8 @@ const GradeTestData = (TestData) => {
       var compr = Q["_data"].qBucket.sort(function(a, b) {
         return a - b;
       });
-      console.log(Answers[i] + ":" + compr);
-      if(Answers[i] == compr) {points++;console.log("was correct.");}
+      console.log(Answers[i].toString() + ":" + compr.toString());
+      if(Answers[i].toString() == compr.toString()) {points++;console.log("was correct.");}
     } else if (type == 5) {
       // slider - bucket
       console.log(Answers[i] + ":" + Q["_data"].qBucket);
@@ -334,7 +334,7 @@ const GradeTestData = (TestData) => {
     } else if (type == 6) {
       // table - shorthand
       var fstr = "";
-      for(let r=0; r<Object.keys(Answers[i]); r++) {
+      for(let r=0; r<Answers[i].length; r++) {
         fstr = fstr + Answers[i][r];
       }
       console.log(fstr + ":" + Q["_data"].qShorthand);
