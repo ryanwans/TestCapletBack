@@ -113,7 +113,7 @@ app.post('/a3/ported/qgr/enco/new/now/result=json', function(req, res) {
   f = JSON.parse(f);
   f[Data.tuid][Data.name].score = Grade;
   fs.writeFileSync('./bank/AnswerRepo.json', JSON.stringify(f), {root: __dirname});
-  res.json(Grade);
+  res.json([Grade]);
 })
 
 app.get('/a3/ported/t/gTD/a', function(req, res) {
