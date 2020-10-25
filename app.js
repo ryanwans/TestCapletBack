@@ -102,6 +102,10 @@ app.use(function(req, res, next) {
   next();
 });
 
+app.get('/a3/ported/qgr/enco/new/now/result=json', function(req, res) {
+  res.send("5");
+})
+
 app.get('/a3/ported/t/gTD/a', function(req, res) {
   var q = req.query;
 
