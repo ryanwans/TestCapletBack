@@ -300,6 +300,7 @@ const GradeTestData = (TestData) => {
     var type = Q["_data"]["qType"];
     if(type == 0) {
       // multichoice - shorthand
+      console.log(Answers[i] + ":" + Q["_data"].qShorthand);
       if(Answers[i] == Q["_data"].qShorthand) {points++;}
     } else if (type == 1) {
       // matching - deprecated so give a full point
@@ -310,9 +311,11 @@ const GradeTestData = (TestData) => {
       for(let r=0; r<Object.keys(Answers[i]).length; r++) {
         fstr = fstr + Object.keys(Answers[i])[r] + Object.values(Answers[i])[r]
       }
+      console.log(fstr + ":" + Q["_data"].qShorthand);
       if(fstr == Q["_data"].qShorthand) {points++;}
     } else if (type == 3) {
       // true or false - shorthand
+      console.log(Answers[i] + ":" + Q["_data"].qShorthand);
       if(Answers[i] == Q["_data"].qShorthand) {points++;}
     } else if (type == 4) {
       // multianswer - bucket
@@ -322,9 +325,11 @@ const GradeTestData = (TestData) => {
       var compr = Q["_data"].qBucket.sort(function(a, b) {
         return a - b;
       });
+      console.log(Answers[i] + ":" + compr);
       if(Answers[i] == compr) {points++;}
     } else if (type == 5) {
       // slider - bucket
+      console.log(Answers[i] + ":" + Q["_data"].qBucket);
       if(Answers[i] == Q["_data"].qBucket) {points++;}
     } else if (type == 6) {
       // table - shorthand
@@ -332,6 +337,7 @@ const GradeTestData = (TestData) => {
       for(let r=0; r<Object.keys(Answers[i]); r++) {
         fstr = fstr + Answers[i][r];
       }
+      console.log(fstr + ":" + Q["_data"].qShorthand);
       if(fstr == Q["_data"].qShorthand) {points++;}
     }
     console.log(points);
