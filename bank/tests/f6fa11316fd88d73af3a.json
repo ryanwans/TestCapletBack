@@ -25,7 +25,7 @@
         "_id": "926c89c91e8b1ddd",
         "_index": 1,
         "_data": {
-            "qType": 1,
+            "qType": 2,
             "qValue": "Fill in the blank.",
             "qAns": {
                 "keys": [
@@ -60,7 +60,7 @@
         "_id": "cb55783a3ceaed68",
         "_index": 2,
         "_data": {
-            "qType": 2,
+            "qType": 3,
             "qValue": "Is the number 9 also the number 7?",
             "qAns": "::$",
             "qBucket": [false],
@@ -77,7 +77,7 @@
         "_id": "b9a24b11d9558e77",
         "_index": 3,
         "_data": {
-            "qType": 3,
+            "qType": 4,
             "qValue": "Choose all of the answers that numbers between 0 and 9",
             "qAns": {
                 "0": "Number 6",
@@ -101,7 +101,7 @@
         "_id": "1684ec884ab6ce85",
         "_index": 4,
         "_data": {
-            "qType": 4,
+            "qType": 5,
             "qValue": "Using the slider, select the year of the Y2K problem.",
             "qAns": ["1900", "1950", "2000", "2020"],
             "qBucket": 2,
@@ -118,7 +118,7 @@
         "_id": "324c7fa3fc98831c",
         "_index": 5,
         "_data": {
-            "qType": 5,
+            "qType": 6,
             "qValue": "Using the table below, select the right answers.",
             "qAns": {
                 "C": ["True", "False", "Error"],
