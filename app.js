@@ -80,12 +80,15 @@ io.of('/a3/sockets/sss').on('connection', (socket) => {
   socket.on('tcio-data', (data) => {
     if(data.purpose == 'status-update') {
       Namespace[data.routing.target]['clients'][data.routing.id].status = data.status;
-      console.log(data)
-      console.log("Status Update Received - " + JSON.stringify(data.status))
+      console.log("Status Update Received - Target "+data.routing.target);
       socket.emit(data.return, {
         status: true,
         code: 'xx5'
       })
+      var f = fs.readFileSync('./bank/AnswerRepo.json', {root: __dirname});
+      f = JSON.parse(f);
+      f[data.routing.target][data.routing.id] = data.status;
+      fs.writeFileSync('./bank/AnswerRepo.json', JSON.stringify(f), {root: __dirname});
     }
   })
   io.on('approval-request', (a) => {
