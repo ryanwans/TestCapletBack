@@ -104,7 +104,7 @@ app.use(function(req, res, next) {
 
 app.post('/a3/ported/qgr/enco/new/now/result=json', function(req, res) {
   var Data = req.body;
-  res.send(GradeTestData(Data));
+  res.json([GradeTestData(Data)]);
 })
 
 app.get('/a3/ported/t/gTD/a', function(req, res) {
