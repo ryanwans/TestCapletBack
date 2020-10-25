@@ -340,9 +340,9 @@ const GradeTestData = (TestData) => {
       console.log(fstr + ":" + Q["_data"].qShorthand);
       if(fstr == Q["_data"].qShorthand) {points++;}
     }
-    console.log(points);
-    return points;
   }
+  console.log(points);
+  return points;
 }
 
 app.get('/', function(req, res) {
