@@ -80,6 +80,7 @@ io.of('/a3/sockets/sss').on('connection', (socket) => {
   socket.on('tcio-data', (data) => {
     if(data.purpose == 'status-update') {
       Namespace[data.routing.target]['clients'][data.routing.id].status = data.status;
+      console.log(data)
       console.log("Status Update Received - " + JSON.stringify(data.status))
       socket.emit(data.return, {
         status: true,
@@ -286,14 +287,14 @@ app.post('/a3/l/q/a/l', function(req, res) {
   }
   });
 
-const GradeTestData = (TestData) => {
+const GradeTestData = (TestData, generateReport) => {
   var Answers = JSON.parse(atob(TestData.data));
   console.log(Answers);
 
   var file = fs.readFileSync('./bank/tests/'+TestData.tuid+".json", {root: __dirname});
   file = JSON.parse(file); 
 
-  var points = 0;
+  var points = 0, ansReport = {};
 
   for(let i=0; i<file.length; i++) {
     var Q = file[i];
@@ -301,7 +302,13 @@ const GradeTestData = (TestData) => {
     if(type == 0) {
       // multichoice - shorthand
       console.log(Answers[i] + ":" + Q["_data"].qShorthand);
-      if(Answers[i] == Q["_data"].qShorthand) {points++;console.log("was correct.");}
+      if(Answers[i] == Q["_data"].qShorthand) {
+        points++;
+      }
+      ansReport[i] = {
+        C: Q["_data"].qShorthand,
+        A: Answers[i]
+      }
     } else if (type == 1) {
       // matching - deprecated so give a full point
       points++;console.log("was correct.");
@@ -312,11 +319,23 @@ const GradeTestData = (TestData) => {
         fstr = fstr + Object.keys(Answers[i])[r] + Object.values(Answers[i])[r]
       }
       console.log(fstr + ":" + Q["_data"].qShorthand);
-      if(fstr == Q["_data"].qShorthand) {points++;console.log("was correct.");}
+      if(fstr == Q["_data"].qShorthand) {
+        points++;
+      }
+      ansReport[i] = {
+        C: Q["_data"].qShorthand,
+        A: fstr
+      }
     } else if (type == 3) {
       // true or false - shorthand
       console.log(Answers[i] + ":" + Q["_data"].qShorthand);
-      if(Answers[i] == Q["_data"].qShorthand) {points++;console.log("was correct.");}
+      if(Answers[i] == Q["_data"].qShorthand) {
+        points++;
+      }
+      ansReport[i] = {
+        C: Q["_data"].qShorthand,
+        A: Answers[i]
+      }
     } else if (type == 4) {
       // multianswer - bucket
       Answers[i] = Answers[i].sort(function(a, b) {
@@ -326,11 +345,23 @@ const GradeTestData = (TestData) => {
         return a - b;
       });
       console.log(Answers[i].toString() + ":" + compr.toString());
-      if(Answers[i].toString() == compr.toString()) {points++;console.log("was correct.");}
+      if(Answers[i].toString() == compr.toString()) {
+        points++;
+      }
+      ansReport[i] = {
+        C: compr.toString(),
+        A: Answers[i].toString()
+      }
     } else if (type == 5) {
       // slider - bucket
       console.log(Answers[i] + ":" + Q["_data"].qBucket);
-      if(Answers[i] == Q["_data"].qBucket) {points++;console.log("was correct.");}
+      if(Answers[i] == Q["_data"].qBucket) {
+        points++;
+      }
+      ansReport[i] = {
+        C: Q["_data"].qBucket,
+        A: Answers[i]
+      }
     } else if (type == 6) {
       // table - shorthand
       var fstr = "";
@@ -338,11 +369,26 @@ const GradeTestData = (TestData) => {
         fstr = fstr + Answers[i][r];
       }
       console.log(fstr + ":" + Q["_data"].qShorthand);
-      if(fstr == Q["_data"].qShorthand) {points++;console.log("was correct.");}
+      if(fstr == Q["_data"].qShorthand) {
+        points++;
+      }
+      ansReport[i] = {
+        C: Q["_data"].qShorthand,
+        A: fstr
+      }
     }
   }
   console.log(points);
-  return points;
+  if(generateReport) {
+    var report = {}
+    report.points = points;
+    report.total = file.length;
+    report.answers = ansReport;
+
+    return report;
+  } else {
+    return points;
+  }
 }
 
 app.get('/', function(req, res) {
