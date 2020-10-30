@@ -36,7 +36,7 @@ Namespace["f6fa11316fd88d73af3a"] = {
 // xx5 - Data aknowledged
 
 io.of('/a3/sockets/sss').on('connection', (socket) => {
-  console.log('new connection');
+  console.log("\n> New Client: Connection\n");
 
   socket.on('approval-request', (Auth) => {
     if(Auth.purpose == 'routing') {
@@ -92,7 +92,7 @@ io.of('/a3/sockets/sss').on('connection', (socket) => {
     }
   });
   socket.on('disconnect', ()=> {
-    console.log("client disconnect");
+    console.log("\n> New Client: Disconnection\n");
   })
   io.on('approval-request', (a) => {
     console.log(a);
