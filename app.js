@@ -121,16 +121,23 @@ app.post('/a3/ported/qgr/enco/new/now/result=json', function(req, res) {
 
 app.get('/a3/ported/t/sTD/state', function(req, res) {
   var code = req.query.code, state = req.query.state;
+  var index = req.query.index, auth = req.query.auth;
 
-  var codes = fs.readFileSync('./bank/CodeRepo.json', {root: __dirname});
-  codes = JSON.parse(codes);
-  var owner = codes[code]["o"];
+  var gg = JSON.parse(fs.readFileSync('./bank/Users.json', {root: __dirname}));
 
-  var repo = fs.readFileSync('./bank/TestRepo.json', {root: __dirname});
-  repo = JSON.parse(repo);
-  repo[owner][code]['meta']['open'] = (state == 'open') ? true : false;
+  if(gg[index]['address'] == auth) {
+    var codes = fs.readFileSync('./bank/CodeRepo.json', {root: __dirname});
+    codes = JSON.parse(codes);
+    var owner = codes[code]["o"];
+  
+    var repo = fs.readFileSync('./bank/TestRepo.json', {root: __dirname});
+    repo = JSON.parse(repo);
+    repo[owner][code]['meta']['open'] = (state == 'open') ? true : false;
+  
+    fs.writeFileSync('./bank/TestRepo.json', JSON.stringify(repo, null, 4), {root: __dirname});
 
-  fs.writeFileSync('./bank/TestRepo.json', JSON.stringify(repo, null, 4), {root: __dirname});
+    console.log("authenticated user edited test lock state")
+  } else {console.log("unauthenticated lock states attempt");}
 
   res.json({message: 'operation was probably completed, though we will never know ;)'});
 })
