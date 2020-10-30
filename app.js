@@ -119,6 +119,22 @@ app.post('/a3/ported/qgr/enco/new/now/result=json', function(req, res) {
   res.json([Grade]);
 })
 
+app.get('/a3/ported/t/sTD/state', function(req, res) {
+  var code = req.query.code, state = req.query.state;
+
+  var codes = fs.readFileSync('./bank/CodeRepo.json', {root: __dirname});
+  codes = JSON.parse(codes);
+  var owner = codes[code]["o"];
+
+  var repo = fs.readFileSync('./bank/TestRepo.json', {root: __dirname});
+  repo = JSON.parse(repo);
+  repo[owner][code]['meta']['open'] = (state == 'open') ? true : false;
+
+  fs.writeFileSync('./bank/TestRepo.json', JSON.stringify(repo, null, 4), {root: __dirname});
+
+  res.json({message: 'operation was probably completed, though we will never know ;)'});
+})
+
 app.get('/a3/ported/t/gTD/a', function(req, res) {
   var q = req.query;
 
