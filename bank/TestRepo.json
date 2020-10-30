@@ -23,7 +23,7 @@
                 "randomOrder": true,
                 "randomQs": true,
                 "useLive": false,
-                "open": true,
+                "open": false,
                 "time": null,
                 "wProtect": true
             }
