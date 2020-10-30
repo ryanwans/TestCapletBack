@@ -90,6 +90,9 @@ io.of('/a3/sockets/sss').on('connection', (socket) => {
       f[data.routing.target][data.routing.id] = data.status;
       fs.writeFileSync('./bank/AnswerRepo.json', JSON.stringify(f), {root: __dirname});
     }
+  });
+  socket.on('disconnect', ()=> {
+    console.log("client disconnect");
   })
   io.on('approval-request', (a) => {
     console.log(a);
