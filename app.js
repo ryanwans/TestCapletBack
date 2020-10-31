@@ -38,7 +38,7 @@ Namespace["f6fa11316fd88d73af3a"] = {
 io.of('/a3/sockets/sss').on('connection', (socket) => {
   console.log("\n> New Client: Connection\n");
 
-  socket.on("teacher-regiser", (Data) => {
+  socket.on("teacher-register", (Data) => {
     console.log("teacher register attempted");
     socket.emit("return", {
       listen: Data.auth+"_teXX",
