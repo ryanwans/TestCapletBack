@@ -38,6 +38,13 @@ Namespace["f6fa11316fd88d73af3a"] = {
 io.of('/a3/sockets/sss').on('connection', (socket) => {
   console.log("\n> New Client: Connection\n");
 
+  socket.on("teacher-regiser", (Data) => {
+    socket.emit("return", {
+      listen: Data.auth+"_teXX",
+      now: Date.now()
+    })
+  })
+
   socket.on('approval-request', (Auth) => {
     if(Auth.purpose == 'routing') {
       var route = Auth.routing;
