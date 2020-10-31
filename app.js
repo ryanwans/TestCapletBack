@@ -39,6 +39,7 @@ io.of('/a3/sockets/sss').on('connection', (socket) => {
   console.log("\n> New Client: Connection\n");
 
   socket.on("teacher-regiser", (Data) => {
+    console.log("teacher register attempted");
     socket.emit("return", {
       listen: Data.auth+"_teXX",
       now: Date.now()
