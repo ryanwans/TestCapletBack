@@ -42,7 +42,8 @@ io.of('/a3/sockets/sss').on('connection', (socket) => {
     console.log("teacher register attempted");
     socket.emit("return", {
       listen: Data.auth+"_teXX",
-      now: Date.now()
+      now: Date.now(),
+      allocation: Namespace
     })
   })
 
