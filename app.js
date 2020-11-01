@@ -62,6 +62,22 @@ io.of('/a3/sockets/sss').on('connection', (socket) => {
     socket.emit("namespace", {
       namespace: Namespace[Data.namespace]
     })
+  });
+
+  socket.on('teacher-StartStop', (Data) => {
+    console.log("teacher has editted a tests start/stop state");
+    Namespace[Data.namespace].lockStatus = Data.opened;
+    socket.emit("namespace", {
+      namespace: Namespace[Data.namespace]
+    });
+    for(let i=0; i<Namespace[Data.namespace].clients.length; i++) {
+      console.log("Opening test for " + Object.values(Namespace[Data.namespace].clients)[i].route)
+      socket.broadcast.emit(Object.values(Namespace[Data.namespace].clients)[i].route, {
+        status: true,
+        code: 'xx3',
+        wait: false
+      });
+    }
   })
 
   socket.on('approval-request', (Auth) => {
