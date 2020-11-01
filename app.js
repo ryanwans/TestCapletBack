@@ -71,7 +71,7 @@ io.of('/a3/sockets/sss').on('connection', (socket) => {
     socket.emit("namespace", {
       namespace: Namespace[Data.namespace]
     });
-    for(let i=0; i<Namespace[Data.namespace].clients.length; i++) {
+    for(let i=0; i<Object.keys(Namespace[Data.namespace].clients).length; i++) {
       console.log("Opening test for " + Object.values(Namespace[Data.namespace].clients)[i].route)
       socket.broadcast.emit(Object.values(Namespace[Data.namespace].clients)[i].route, {
         status: Data.opened,
