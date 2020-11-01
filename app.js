@@ -38,7 +38,7 @@ io.of('/a3/sockets/sss').on('connection', (socket) => {
     Namespace[Data.namespace] = {clients: {}, lockStatus: false};
     if(WaitingRoom[Data.namespace]) {
       for(let i=0; i<WaitingRoom[Data.namespace].length; i++) {
-        socket.emit(WaitingRoom[Data.namespace][i], {
+        io.emit(WaitingRoom[Data.namespace][i], {
           status: false,
           code: 'xx6',
           wait: true,
