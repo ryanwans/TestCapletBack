@@ -42,7 +42,8 @@ io.of('/a3/sockets/sss').on('connection', (socket) => {
           status: false,
           code: 'xx6',
           wait: true,
-        })
+        });
+        WaitingRoom[Data.namespace].splice(i, 1);
       }
     }
     console.log("Done. Test was allocated in the namespace");
