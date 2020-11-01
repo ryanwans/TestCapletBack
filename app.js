@@ -21,13 +21,6 @@ var io = require('socket.io')(httpsServer);
 var Namespace = new Object();
 var WaitingRoom = new Object();
 
-// Manual test. Upon a teacher opening a test,
-// this object will automatically draft.
-Namespace["f6fa11316fd88d73af3a"] = {
-  clients: {},
-  lockStatus: true
-}
-
 // Code Status Cheat Sheet
 // xx1 - Teacher has not yet started the live testing
 // xx2 - Test is still locked
@@ -40,12 +33,16 @@ io.of('/a3/sockets/sss').on('connection', (socket) => {
 
   socket.on("teacher-register", (Data) => {
     console.log("teacher register attempted");
+    console.log(JSON.stringify(Data, null, 4));
+    Namespace[Data.namespace] = {clients: {}, lockStatus: true};
+    console.log("Done. Test was allocated in the namespace");
+    var tLi = Data.auth+"_teXX";
     socket.emit("return", {
-      listen: Data.auth+"_teXX",
+      listen: tLi,
       now: Date.now(),
       allocation: Namespace
     })
-  })
+  });
 
   socket.on('approval-request', (Auth) => {
     if(Auth.purpose == 'routing') {
