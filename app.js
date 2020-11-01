@@ -34,7 +34,7 @@ io.of('/a3/sockets/sss').on('connection', (socket) => {
   socket.on("teacher-register", (Data) => {
     console.log("teacher register attempted");
     console.log(JSON.stringify(Data, null, 4));
-    Namespace[Data.namespace] = {clients: {}, lockStatus: true};
+    Namespace[Data.namespace] = {clients: {}, lockStatus: false};
     console.log("Done. Test was allocated in the namespace");
     var tLi = Data.auth+"_teXX";
     socket.emit("return", {
