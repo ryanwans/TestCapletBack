@@ -43,6 +43,7 @@ io.of('/a3/sockets/sss').on('connection', (socket) => {
           code: 'xx6',
           wait: true,
         });
+        console.log("Sent WAITING_ROOM request to user "+WaitingRoom[Data.namespace][i]);
         WaitingRoom[Data.namespace].splice(i, 1);
       }
     }
