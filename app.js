@@ -40,7 +40,8 @@ io.of('/a3/sockets/sss').on('connection', (socket) => {
     socket.emit("return", {
       listen: tLi,
       now: Date.now(),
-      allocation: Namespace
+      allocation: Namespace,
+      waiting: WaitingRoom
     })
   });
 
