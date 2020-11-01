@@ -27,6 +27,7 @@ var WaitingRoom = new Object();
 // xx3 - Test is nominal
 // xx4 - Test locking was triggered
 // xx5 - Data aknowledged
+// xx6 - Attempt reconnection
 
 io.of('/a3/sockets/sss').on('connection', (socket) => {
   console.log("\n> New Client: Connection\n");
@@ -35,6 +36,15 @@ io.of('/a3/sockets/sss').on('connection', (socket) => {
     console.log("teacher register attempted");
     console.log(JSON.stringify(Data, null, 4));
     Namespace[Data.namespace] = {clients: {}, lockStatus: false};
+    if(WaitingRoom[Data.namespace]) {
+      for(let i=0; i<WaitingRoom[Data.namespace].length; i++) {
+        socket.emit(WaitingRoom[Data.namespace][i], {
+          status: false,
+          code: 'xx6',
+          wait: true,
+        })
+      }
+    }
     console.log("Done. Test was allocated in the namespace");
     var tLi = Data.auth+"_teXX";
     socket.emit("return", {
