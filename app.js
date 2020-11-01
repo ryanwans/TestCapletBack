@@ -28,6 +28,7 @@ var WaitingRoom = new Object();
 // xx4 - Test locking was triggered
 // xx5 - Data aknowledged
 // xx6 - Attempt reconnection
+// xx7 - Test is paused
 
 io.of('/a3/sockets/sss').on('connection', (socket) => {
   console.log("\n> New Client: Connection\n");
@@ -73,8 +74,8 @@ io.of('/a3/sockets/sss').on('connection', (socket) => {
     for(let i=0; i<Namespace[Data.namespace].clients.length; i++) {
       console.log("Opening test for " + Object.values(Namespace[Data.namespace].clients)[i].route)
       socket.broadcast.emit(Object.values(Namespace[Data.namespace].clients)[i].route, {
-        status: true,
-        code: 'xx3',
+        status: Data.opened,
+        code: (Data.opened) ? 'xx3' : 'xx7',
         wait: false
       });
     }
