@@ -29,6 +29,7 @@ var WaitingRoom = new Object();
 // xx5 - Data aknowledged
 // xx6 - Attempt reconnection
 // xx7 - Test is paused
+// xx8 - Authorizes test unlock
 
 io.of('/a3/sockets/sss').on('connection', (socket) => {
   console.log("\n> New Client: Connection\n");
