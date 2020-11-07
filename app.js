@@ -29,7 +29,7 @@ var WaitingRoom = new Object();
 // xx5 - Data aknowledged
 // xx6 - Attempt reconnection
 // xx7 - Test is paused
-// xx8 - Authorizes test unlock
+// xx8 - Authorized test unlock
 
 io.of('/a3/sockets/sss').on('connection', (socket) => {
   console.log("\n> New Client: Connection\n");
@@ -80,6 +80,12 @@ io.of('/a3/sockets/sss').on('connection', (socket) => {
         wait: false
       });
     }
+  })
+
+  socket.on('teacher-unlockStudent', (Data) => {
+    var Reply = Data.student, Auth = Data.auth;
+
+    console.log(Auth + "::"+Reply);
   })
 
   socket.on('approval-request', (Auth) => {
