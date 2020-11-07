@@ -60,7 +60,7 @@ io.of('/a3/sockets/sss').on('connection', (socket) => {
   });
 
   socket.on("teacher-getNamespace", (Data) => {
-    console.log("teacher requested respective namespace object");
+    // console.log("teacher requested respective namespace object");
     socket.emit("namespace", {
       namespace: Namespace[Data.namespace]
     })
