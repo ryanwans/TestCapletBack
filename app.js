@@ -71,7 +71,7 @@ io.of('/a3/sockets/sss').on('connection', (socket) => {
     Namespace[Data.namespace].lockStatus = Data.opened;
     socket.emit("namespace", {
       namespace: Namespace[Data.namespace]
-    });
+    }); 
     for(let i=0; i<Object.keys(Namespace[Data.namespace].clients).length; i++) {
       console.log("Opening test for " + Object.values(Namespace[Data.namespace].clients)[i].route)
       socket.broadcast.emit(Object.values(Namespace[Data.namespace].clients)[i].route, {
@@ -85,7 +85,19 @@ io.of('/a3/sockets/sss').on('connection', (socket) => {
   socket.on('teacher-unlockStudent', (Data) => {
     var Reply = Data.student, Auth = Data.auth;
 
-    console.log(Auth + "::"+Reply);
+    //console.log(Auth + "::"+Reply);
+
+    if(Object.keys(Namespace).includes(Auth)) {
+      socket.broadcast.emit(Reply, {
+        status: true,
+        code: 'xx8',
+        wait: false
+      })
+    } else {
+      socket.emit('return', {
+        message: "tried"
+      })
+    }
   })
 
   socket.on('approval-request', (Auth) => {
