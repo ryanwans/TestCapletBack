@@ -209,7 +209,9 @@ app.post("/a3/edge/enco/realtime-data-stream", function(res, res) {
 });
 
 app.post("/a3/l/q/svr", function(req, res) {
-  var data = JSON.parse(req.body);
+  var data = req.body;
+
+  console.log(">> HIT");
 
   // step one - authenticate
   var UserFile = fs.readFileSync('./bank/Users.json', {root: __dirname});
@@ -221,6 +223,7 @@ app.post("/a3/l/q/svr", function(req, res) {
   }
 
   if(auth) {
+    console.log(">> Auth Passed");
     // step two - identify test and get data
     var id = data.id;
     var Codes = JSON.parse(fs.readFileSync('./bank/CodeRepo.json'));
@@ -241,7 +244,7 @@ app.post("/a3/l/q/svr", function(req, res) {
     } catch(e) {
       res.json({code: false});
     }
-  } else {res.json({auth: false});}
+  } else {console.log(">> Auth Failed");res.json({auth: false});}
 })
 
 app.get('/a3/ported/t/gTD/a', function(req, res) {

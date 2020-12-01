@@ -31,7 +31,7 @@ public.pem
 *.pem
 pem
 pems
-
+cert.pem
 # nyc test coverage
 .nyc_output
 
