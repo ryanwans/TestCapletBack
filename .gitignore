@@ -24,6 +24,13 @@ coverage
 
 # NO PEM FILES REEEEEEE BAHAHAHA
 *.pem
+private.pem
+secret.pem
+public.pem
+.pem
+*.pem
+pem
+pems
 
 # nyc test coverage
 .nyc_output
