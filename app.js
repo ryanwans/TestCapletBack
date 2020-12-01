@@ -204,6 +204,46 @@ app.get('/a3/ported/t/sTD/state', function(req, res) {
   res.json({message: 'operation was probably completed, though we will never know ;)'});
 })
 
+app.post("/a3/edge/enco/realtime-data-stream", function(res, res) {
+  var DATA = JSON.parse(req.body);
+});
+
+app.post("/a3/l/q/svr", function(req, res) {
+  var data = JSON.parse(req.body);
+
+  // step one - authenticate
+  var UserFile = fs.readFileSync('./bank/Users.json', {root: __dirname});
+  UserFile = JSON.parse(UserFile);
+  var auth = false; 
+
+  for(let i=0; i<UserFile.length; i++) {
+    if(UserFile[i].address == data.auth && UserFile[i].password == data.password) {auth = true;}
+  }
+
+  if(auth) {
+    // step two - identify test and get data
+    var id = data.id;
+    var Codes = JSON.parse(fs.readFileSync('./bank/CodeRepo.json'));
+    try {
+      var owner = Codes[id]["o"];
+      if("string" != typeof owner) {
+        res.json({code: false});
+      } else {
+        var Tests = JSON.parse(fs.readFileSync('./bank/TestRepo.json'));
+        var testId = Tests[owner][id]["tuid"];
+
+        var AnswerRepo = JSON.parse(fs.readFileSync('./bank/AnswerRepo.json'));
+        res.json({
+          auth: true,
+          data: AnswerRepo[testId]
+        })
+      }
+    } catch(e) {
+      res.json({code: false});
+    }
+  } else {res.json({auth: false});}
+})
+
 app.get('/a3/ported/t/gTD/a', function(req, res) {
   var q = req.query;
 
