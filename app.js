@@ -238,7 +238,8 @@ app.post("/a3/l/q/svr", function(req, res) {
         var AnswerRepo = JSON.parse(fs.readFileSync('./bank/AnswerRepo.json'));
         res.json({
           auth: true,
-          data: AnswerRepo[testId]
+          data: AnswerRepo[testId],
+          test: JSON.parse(fs.readFileSync('./bank/tests/'+testId+".json"))
         })
       }
     } catch(e) {
