@@ -173,12 +173,14 @@ app.use(function(req, res, next) {
 
 app.post('/a3/ported/qgr/enco/new/now/result=json', function(req, res) {
   var Data = req.body;
-  var Grade = GradeTestData(Data);
+  var OUT = GradeTestData(Data, true);
+  var Grade = OUT[0], Output = OUT[1];
   var f = fs.readFileSync('./bank/AnswerRepo.json', {root: __dirname});
   f = JSON.parse(f);
   f[Data.tuid][Data.name].score = Grade;
   fs.writeFileSync('./bank/AnswerRepo.json', JSON.stringify(f), {root: __dirname});
-  res.json([Grade]);
+  console.log("OUTPUT FILE::::::\n\n" + JSON.stringify(Output, null, 4));
+  res.json([Grade, Output]);
 })
 
 app.get('/a3/ported/t/sTD/state', function(req, res) {
@@ -520,12 +522,7 @@ const GradeTestData = (TestData, generateReport) => {
   }
   console.log(points);
   if(generateReport) {
-    var report = {}
-    report.points = points;
-    report.total = file.length;
-    report.answers = ansReport;
-
-    return report;
+    return [points, ansReport];
   } else {
     return points;
   }
@@ -555,7 +552,10 @@ app.post("/analytics/*", function(req, res) {
       AnFile[LEAS][UUID][STMP].actions.push(Analytics.actions[i]);
     }
   } else {
-    AnFile[LEAS][UUID][STMP] = Analytics
+    AnFile[LEAS][UUID][STMP] = {
+      clicks: Analytics.clicks,
+      actions: Analytics.actions
+    }
   }
 
   fs.writeFileSync('./UsageAnalytics.json', JSON.stringify(AnFile, null, 4), {root: __dirname})

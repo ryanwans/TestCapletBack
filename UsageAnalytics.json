@@ -269,17 +269,7 @@
                         "action": "NewWindowRender",
                         "stamp": 1607555169289
                     }
-                ],
-                "passalong": {
-                    "stamp": 1607480731259,
-                    "int": 0,
-                    "err": 0,
-                    "appId": "RyanWans-TestCaplet_ZK3GEm4on1AdatPgBMRW",
-                    "stackDelay": "now"
-                },
-                "stamp": "1607462894871",
-                "uuid": "MTYwNzQ2Mjg5NDg3MQ==",
-                "lease": "1bafb88c-939c-413d-b0b2-80f33e794fe1"
+                ]
             }
         },
         "MTYwNzU1NTEyMjc0Mg==": {
