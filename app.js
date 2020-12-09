@@ -534,6 +534,7 @@ const GradeTestData = (TestData, generateReport) => {
 app.post("/analytics/*", function(req, res) {
   var t = req.body;
   if("object" != typeof t) {t = JSON.parse(t);}
+  console.log(t, req.body);
   var TransBuffer = Buffer.from(t.pack);
   var Analytics = JSON.parse(TransBuffer.toString());
 
