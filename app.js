@@ -531,6 +531,26 @@ const GradeTestData = (TestData, generateReport) => {
   }
 }
 
+app.post("/analytics/*", function(req, res) {
+  var t = req.body;
+  if("object" != typeof t) {t = JSON.parse(t);}
+  var TransBuffer = Buffer.of(t);
+  var Analytics = JSON.parse(TransBuffer.toString());
+
+  var UUID = Analytics.uuid;
+  var STMP = Analytics.stamp;
+  var LEAS = Analytics.lease;
+
+  var AnFile = fs.readFileSync('./UsageAnalytics.json', {root: __dirname});
+  AnFile = JSON.parse(AnFile);
+
+  AnFile[LEAS] = AnFile[LEAS] || {};
+  AnFile[LEAS][UUID] = AnFile[LEAS][UUID] || {};
+  AnFile[LEAS][UUID][STMP] = Analytics;
+
+  res.status(200);
+});
+
 app.get('/', function(req, res) {
   res.send("Test Caplet Backend API v3. Have a good day!");
   //res.sendFile('./SocketTest.html', {root: __dirname});
