@@ -260,6 +260,14 @@
                     {
                         "action": "RenderTestList",
                         "stamp": 1607481864910
+                    },
+                    {
+                        "action": "RenderNewTestData",
+                        "stamp": 1607555169285
+                    },
+                    {
+                        "action": "NewWindowRender",
+                        "stamp": 1607555169289
                     }
                 ],
                 "passalong": {
@@ -271,6 +279,565 @@
                 },
                 "stamp": "1607462894871",
                 "uuid": "MTYwNzQ2Mjg5NDg3MQ==",
+                "lease": "1bafb88c-939c-413d-b0b2-80f33e794fe1"
+            }
+        },
+        "MTYwNzU1NTEyMjc0Mg==": {
+            "1607555122742": {
+                "clicks": [
+                    {
+                        "position": {
+                            "x": 57,
+                            "y": 207
+                        },
+                        "target": {
+                            "type": "IMG",
+                            "class": "x-icon",
+                            "id": ""
+                        },
+                        "stamp": 1607555146861
+                    },
+                    {
+                        "position": {
+                            "x": 33,
+                            "y": 80
+                        },
+                        "target": {
+                            "type": "IMG",
+                            "class": "x-icon",
+                            "id": ""
+                        },
+                        "stamp": 1607555148645
+                    },
+                    {
+                        "position": {
+                            "x": 634,
+                            "y": 250
+                        },
+                        "target": {
+                            "type": "BUTTON",
+                            "class": "x-test-live",
+                            "id": ""
+                        },
+                        "stamp": 1607555149604
+                    },
+                    {
+                        "position": {
+                            "x": 438,
+                            "y": 118
+                        },
+                        "target": {
+                            "type": "LIVE-B",
+                            "class": "",
+                            "id": ""
+                        },
+                        "stamp": 1607555154105
+                    },
+                    {
+                        "position": {
+                            "x": 385,
+                            "y": 299
+                        },
+                        "target": {
+                            "type": "SPAN",
+                            "class": "",
+                            "id": ""
+                        },
+                        "stamp": 1607555154636
+                    },
+                    {
+                        "position": {
+                            "x": 385,
+                            "y": 299
+                        },
+                        "target": {
+                            "type": "SPAN",
+                            "class": "",
+                            "id": ""
+                        },
+                        "stamp": 1607555154779
+                    },
+                    {
+                        "position": {
+                            "x": 385,
+                            "y": 299
+                        },
+                        "target": {
+                            "type": "SPAN",
+                            "class": "",
+                            "id": ""
+                        },
+                        "stamp": 1607555154915
+                    },
+                    {
+                        "position": {
+                            "x": 386,
+                            "y": 298
+                        },
+                        "target": {
+                            "type": "SPAN",
+                            "class": "",
+                            "id": ""
+                        },
+                        "stamp": 1607555155084
+                    },
+                    {
+                        "position": {
+                            "x": 418,
+                            "y": 285
+                        },
+                        "target": {
+                            "type": "SPAN",
+                            "class": "",
+                            "id": ""
+                        },
+                        "stamp": 1607555155389
+                    },
+                    {
+                        "position": {
+                            "x": 609,
+                            "y": 366
+                        },
+                        "target": {
+                            "type": "FRX-BTN-CLOSE",
+                            "class": "",
+                            "id": ""
+                        },
+                        "stamp": 1607555170933
+                    },
+                    {
+                        "position": {
+                            "x": 424,
+                            "y": 74
+                        },
+                        "target": {
+                            "type": "LIVE-B",
+                            "class": "x-ss",
+                            "id": ""
+                        },
+                        "stamp": 1607555176832
+                    },
+                    {
+                        "position": {
+                            "x": 518,
+                            "y": 345
+                        },
+                        "target": {
+                            "type": "FRX-BTN-CLOSE",
+                            "class": "",
+                            "id": ""
+                        },
+                        "stamp": 1607555178309
+                    },
+                    {
+                        "position": {
+                            "x": 386,
+                            "y": 75
+                        },
+                        "target": {
+                            "type": "LIVE-B",
+                            "class": "x-ss",
+                            "id": ""
+                        },
+                        "stamp": 1607555225696
+                    },
+                    {
+                        "position": {
+                            "x": 504,
+                            "y": 346
+                        },
+                        "target": {
+                            "type": "FRX-BTN-CLOSE",
+                            "class": "",
+                            "id": ""
+                        },
+                        "stamp": 1607555226795
+                    },
+                    {
+                        "position": {
+                            "x": 472,
+                            "y": 302
+                        },
+                        "target": {
+                            "type": "LIVE-STUD",
+                            "class": "",
+                            "id": ""
+                        },
+                        "stamp": 1607555227982
+                    },
+                    {
+                        "position": {
+                            "x": 44,
+                            "y": 213
+                        },
+                        "target": {
+                            "type": "IMG",
+                            "class": "x-icon",
+                            "id": ""
+                        },
+                        "stamp": 1607555236117
+                    },
+                    {
+                        "position": {
+                            "x": 261,
+                            "y": 163
+                        },
+                        "target": {
+                            "type": "DIV",
+                            "class": "x-test hovrmain",
+                            "id": "x-TCODE-6X5JTBO8"
+                        },
+                        "stamp": 1607555241644
+                    },
+                    {
+                        "position": {
+                            "x": 584,
+                            "y": 358
+                        },
+                        "target": {
+                            "type": "FRX-BTN-CLOSE",
+                            "class": "",
+                            "id": ""
+                        },
+                        "stamp": 1607555245809
+                    },
+                    {
+                        "position": {
+                            "x": 810,
+                            "y": 74
+                        },
+                        "target": {
+                            "type": "IMG",
+                            "class": "arr-for",
+                            "id": ""
+                        },
+                        "stamp": 1607555261982
+                    },
+                    {
+                        "position": {
+                            "x": 810,
+                            "y": 74
+                        },
+                        "target": {
+                            "type": "IMG",
+                            "class": "arr-for",
+                            "id": ""
+                        },
+                        "stamp": 1607555262996
+                    },
+                    {
+                        "position": {
+                            "x": 810,
+                            "y": 74
+                        },
+                        "target": {
+                            "type": "IMG",
+                            "class": "arr-for",
+                            "id": ""
+                        },
+                        "stamp": 1607555263547
+                    },
+                    {
+                        "position": {
+                            "x": 810,
+                            "y": 74
+                        },
+                        "target": {
+                            "type": "IMG",
+                            "class": "arr-for",
+                            "id": ""
+                        },
+                        "stamp": 1607555263974
+                    },
+                    {
+                        "position": {
+                            "x": 810,
+                            "y": 74
+                        },
+                        "target": {
+                            "type": "IMG",
+                            "class": "arr-for",
+                            "id": ""
+                        },
+                        "stamp": 1607555264495
+                    },
+                    {
+                        "position": {
+                            "x": 773,
+                            "y": 68
+                        },
+                        "target": {
+                            "type": "IMG",
+                            "class": "arr-back",
+                            "id": ""
+                        },
+                        "stamp": 1607555265219
+                    },
+                    {
+                        "position": {
+                            "x": 773,
+                            "y": 68
+                        },
+                        "target": {
+                            "type": "IMG",
+                            "class": "arr-back",
+                            "id": ""
+                        },
+                        "stamp": 1607555265362
+                    },
+                    {
+                        "position": {
+                            "x": 773,
+                            "y": 68
+                        },
+                        "target": {
+                            "type": "IMG",
+                            "class": "arr-back",
+                            "id": ""
+                        },
+                        "stamp": 1607555265514
+                    },
+                    {
+                        "position": {
+                            "x": 367,
+                            "y": 223
+                        },
+                        "target": {
+                            "type": "SPAN",
+                            "class": "visIntelQue",
+                            "id": ""
+                        },
+                        "stamp": 1607555268144
+                    },
+                    {
+                        "position": {
+                            "x": 329,
+                            "y": 256
+                        },
+                        "target": {
+                            "type": "SPAN",
+                            "class": "visIntelQue",
+                            "id": ""
+                        },
+                        "stamp": 1607555280512
+                    },
+                    {
+                        "position": {
+                            "x": 336,
+                            "y": 309
+                        },
+                        "target": {
+                            "type": "SPAN",
+                            "class": "visIntelQue",
+                            "id": ""
+                        },
+                        "stamp": 1607555282095
+                    },
+                    {
+                        "position": {
+                            "x": 315,
+                            "y": 339
+                        },
+                        "target": {
+                            "type": "SPAN",
+                            "class": "visIntelQue",
+                            "id": ""
+                        },
+                        "stamp": 1607555285215
+                    },
+                    {
+                        "position": {
+                            "x": 318,
+                            "y": 372
+                        },
+                        "target": {
+                            "type": "SPAN",
+                            "class": "visIntelQue",
+                            "id": ""
+                        },
+                        "stamp": 1607555287644
+                    },
+                    {
+                        "position": {
+                            "x": 362,
+                            "y": 401
+                        },
+                        "target": {
+                            "type": "SPAN",
+                            "class": "visIntelQue",
+                            "id": ""
+                        },
+                        "stamp": 1607555289855
+                    },
+                    {
+                        "position": {
+                            "x": 354,
+                            "y": 433
+                        },
+                        "target": {
+                            "type": "SPAN",
+                            "class": "visIntelQue",
+                            "id": ""
+                        },
+                        "stamp": 1607555294720
+                    },
+                    {
+                        "position": {
+                            "x": 376,
+                            "y": 478
+                        },
+                        "target": {
+                            "type": "SPAN",
+                            "class": "visIntelQue",
+                            "id": ""
+                        },
+                        "stamp": 1607555296472
+                    },
+                    {
+                        "position": {
+                            "x": 298,
+                            "y": 499
+                        },
+                        "target": {
+                            "type": "SPAN",
+                            "class": "visIntelQue",
+                            "id": ""
+                        },
+                        "stamp": 1607555297904
+                    },
+                    {
+                        "position": {
+                            "x": 333,
+                            "y": 471
+                        },
+                        "target": {
+                            "type": "SPAN",
+                            "class": "visIntelQue",
+                            "id": ""
+                        },
+                        "stamp": 1607555302898
+                    },
+                    {
+                        "position": {
+                            "x": 344,
+                            "y": 507
+                        },
+                        "target": {
+                            "type": "SPAN",
+                            "class": "visIntelQue",
+                            "id": ""
+                        },
+                        "stamp": 1607555304992
+                    },
+                    {
+                        "position": {
+                            "x": 327,
+                            "y": 460
+                        },
+                        "target": {
+                            "type": "SPAN",
+                            "class": "visIntelQue",
+                            "id": ""
+                        },
+                        "stamp": 1607555308168
+                    }
+                ],
+                "actions": [
+                    {
+                        "action": "OpenTestCaplet",
+                        "stamp": 1607555119197
+                    },
+                    {
+                        "action": "NewWindowRender",
+                        "stamp": 1607555122742
+                    },
+                    {
+                        "action": "NewWindowRender",
+                        "stamp": 1607555142465
+                    },
+                    {
+                        "action": "RenderTestList",
+                        "stamp": 1607555146860
+                    },
+                    {
+                        "action": "RenderTestList",
+                        "stamp": 1607555148644
+                    },
+                    {
+                        "action": "StartLiveTesting",
+                        "stamp": 1607555149604
+                    },
+                    {
+                        "action": "StartSocketPolling",
+                        "stamp": 1607555151024
+                    },
+                    {
+                        "action": "RenderTestList",
+                        "stamp": 1607555236115
+                    },
+                    {
+                        "action": "StartDataVis",
+                        "stamp": 1607555245848
+                    },
+                    {
+                        "action": "InsightsUsage",
+                        "stamp": 1607555268143
+                    },
+                    {
+                        "action": "InsightsUsage",
+                        "stamp": 1607555280511
+                    },
+                    {
+                        "action": "InsightsUsage",
+                        "stamp": 1607555282095
+                    },
+                    {
+                        "action": "InsightsUsage",
+                        "stamp": 1607555285215
+                    },
+                    {
+                        "action": "InsightsUsage",
+                        "stamp": 1607555287643
+                    },
+                    {
+                        "action": "InsightsUsage",
+                        "stamp": 1607555289855
+                    },
+                    {
+                        "action": "InsightsUsage",
+                        "stamp": 1607555294720
+                    },
+                    {
+                        "action": "InsightsUsage",
+                        "stamp": 1607555296472
+                    },
+                    {
+                        "action": "InsightsUsage",
+                        "stamp": 1607555297903
+                    },
+                    {
+                        "action": "InsightsUsage",
+                        "stamp": 1607555302898
+                    },
+                    {
+                        "action": "InsightsUsage",
+                        "stamp": 1607555304992
+                    },
+                    {
+                        "action": "InsightsUsage",
+                        "stamp": 1607555308168
+                    }
+                ],
+                "passalong": {
+                    "stamp": 1607555132744,
+                    "int": 0,
+                    "err": 0,
+                    "appId": "RyanWans-TestCaplet_ZK3GEm4on1AdatPgBMRW",
+                    "stackDelay": "now"
+                },
+                "license": "pmOBCLVVMxav3x7o86EW",
+                "stamp": "1607555122742",
+                "uuid": "MTYwNzU1NTEyMjc0Mg==",
                 "lease": "1bafb88c-939c-413d-b0b2-80f33e794fe1"
             }
         }
