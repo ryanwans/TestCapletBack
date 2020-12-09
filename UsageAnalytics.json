@@ -14,7 +14,9 @@
                             "id": ""
                         },
                         "stamp": 1607480728269
-                    }
+                    },
+                    [],
+                    []
                 ],
                 "actions": [
                     {
@@ -24,7 +26,23 @@
                     {
                         "action": "RenderTestList",
                         "stamp": 1607480728267
-                    }
+                    },
+                    [
+                        {
+                            "action": "OpenTestCaplet",
+                            "stamp": 1607481051550
+                        },
+                        {
+                            "action": "NewWindowRender",
+                            "stamp": 1607481051557
+                        }
+                    ],
+                    [
+                        {
+                            "action": "NewWindowRender",
+                            "stamp": 1607481079170
+                        }
+                    ]
                 ],
                 "passalong": {
                     "stamp": 1607480731259,
@@ -35,6 +53,154 @@
                 },
                 "stamp": "1607462894871",
                 "uuid": "MTYwNzQ2Mjg5NDg3MQ==",
+                "lease": "1bafb88c-939c-413d-b0b2-80f33e794fe1"
+            }
+        },
+        "undefined": {
+            "undefined": {
+                "clicks": [
+                    {
+                        "position": {
+                            "x": 47,
+                            "y": 227
+                        },
+                        "target": {
+                            "type": "IMG",
+                            "class": "x-icon",
+                            "id": ""
+                        },
+                        "stamp": 1607481106555
+                    },
+                    {
+                        "position": {
+                            "x": 170,
+                            "y": 149
+                        },
+                        "target": {
+                            "type": "SPAN",
+                            "class": "x-test-title",
+                            "id": ""
+                        },
+                        "stamp": 1607481109474
+                    },
+                    {
+                        "position": {
+                            "x": 588,
+                            "y": 356
+                        },
+                        "target": {
+                            "type": "FRX-BTN-CLOSE",
+                            "class": "",
+                            "id": ""
+                        },
+                        "stamp": 1607481114345
+                    },
+                    {
+                        "position": {
+                            "x": 240,
+                            "y": 210
+                        },
+                        "target": {
+                            "type": "SPAN",
+                            "class": "visIntelQue",
+                            "id": ""
+                        },
+                        "stamp": 1607481118842
+                    },
+                    {
+                        "position": {
+                            "x": 724,
+                            "y": 403
+                        },
+                        "target": {
+                            "type": "VISPROMPT",
+                            "class": "",
+                            "id": ""
+                        },
+                        "stamp": 1607481154845
+                    },
+                    {
+                        "position": {
+                            "x": 624,
+                            "y": 360
+                        },
+                        "target": {
+                            "type": "FRX-BTN-CLOSE",
+                            "class": "",
+                            "id": ""
+                        },
+                        "stamp": 1607481155521
+                    },
+                    {
+                        "position": {
+                            "x": 40,
+                            "y": 77
+                        },
+                        "target": {
+                            "type": "IMG",
+                            "class": "x-icon",
+                            "id": ""
+                        },
+                        "stamp": 1607481156956
+                    },
+                    {
+                        "position": {
+                            "x": 608,
+                            "y": 248
+                        },
+                        "target": {
+                            "type": "BUTTON",
+                            "class": "x-test-live",
+                            "id": ""
+                        },
+                        "stamp": 1607481159250
+                    },
+                    {
+                        "position": {
+                            "x": 33,
+                            "y": 233
+                        },
+                        "target": {
+                            "type": "IMG",
+                            "class": "x-icon",
+                            "id": ""
+                        },
+                        "stamp": 1607481162971
+                    }
+                ],
+                "actions": [
+                    {
+                        "action": "RenderTestList",
+                        "stamp": 1607481106552
+                    },
+                    {
+                        "action": "StartDataVis",
+                        "stamp": 1607481114386
+                    },
+                    {
+                        "action": "RenderTestList",
+                        "stamp": 1607481156954
+                    },
+                    {
+                        "action": "StartLiveTesting",
+                        "stamp": 1607481159249
+                    },
+                    {
+                        "action": "StartSocketPolling",
+                        "stamp": 1607481160663
+                    },
+                    {
+                        "action": "RenderTestList",
+                        "stamp": 1607481162970
+                    }
+                ],
+                "passalong": {
+                    "stamp": 1607481199174,
+                    "int": 1,
+                    "err": 3,
+                    "appId": "RyanWans-TestCaplet_ZK3GEm4on1AdatPgBMRW",
+                    "stackDelay": "now"
+                },
                 "lease": "1bafb88c-939c-413d-b0b2-80f33e794fe1"
             }
         }
