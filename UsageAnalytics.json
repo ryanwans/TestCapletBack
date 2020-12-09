@@ -230,6 +230,18 @@
                             "id": ""
                         },
                         "stamp": 1607555564662
+                    },
+                    {
+                        "position": {
+                            "x": 616,
+                            "y": 362
+                        },
+                        "target": {
+                            "type": "FRX-BTN-CLOSE",
+                            "class": "",
+                            "id": ""
+                        },
+                        "stamp": 1607556046831
                     }
                 ],
                 "actions": [
@@ -316,6 +328,14 @@
                     {
                         "action": "NewWindowRender",
                         "stamp": 1607555680891
+                    },
+                    {
+                        "action": "RenderNewTestData",
+                        "stamp": 1607556037894
+                    },
+                    {
+                        "action": "NewWindowRender",
+                        "stamp": 1607556037898
                     }
                 ]
             }
@@ -886,6 +906,282 @@
                             "id": ""
                         },
                         "stamp": 1607555620561
+                    },
+                    {
+                        "position": {
+                            "x": 441,
+                            "y": 73
+                        },
+                        "target": {
+                            "type": "LIVE-B",
+                            "class": "x-ss",
+                            "id": ""
+                        },
+                        "stamp": 1607555984612
+                    },
+                    {
+                        "position": {
+                            "x": 532,
+                            "y": 358
+                        },
+                        "target": {
+                            "type": "FRX-BTN-CLOSE",
+                            "class": "",
+                            "id": ""
+                        },
+                        "stamp": 1607555985964
+                    },
+                    {
+                        "position": {
+                            "x": 459,
+                            "y": 119
+                        },
+                        "target": {
+                            "type": "LIVE-B",
+                            "class": "",
+                            "id": ""
+                        },
+                        "stamp": 1607555995420
+                    },
+                    {
+                        "position": {
+                            "x": 596,
+                            "y": 362
+                        },
+                        "target": {
+                            "type": "FRX-BTN-CLOSE",
+                            "class": "",
+                            "id": ""
+                        },
+                        "stamp": 1607556008412
+                    },
+                    {
+                        "position": {
+                            "x": 595,
+                            "y": 362
+                        },
+                        "target": {
+                            "type": "LIVE-STUD",
+                            "class": "",
+                            "id": ""
+                        },
+                        "stamp": 1607556009540
+                    },
+                    {
+                        "position": {
+                            "x": 49,
+                            "y": 113
+                        },
+                        "target": {
+                            "type": "IMG",
+                            "class": "x-icon",
+                            "id": ""
+                        },
+                        "stamp": 1607556010575
+                    },
+                    {
+                        "position": {
+                            "x": 39,
+                            "y": 94
+                        },
+                        "target": {
+                            "type": "IMG",
+                            "class": "x-icon",
+                            "id": ""
+                        },
+                        "stamp": 1607556012149
+                    },
+                    {
+                        "position": {
+                            "x": 373,
+                            "y": 157
+                        },
+                        "target": {
+                            "type": "BUTTON",
+                            "class": "x-button hover",
+                            "id": ""
+                        },
+                        "stamp": 1607556017749
+                    },
+                    {
+                        "position": {
+                            "x": 631,
+                            "y": 245
+                        },
+                        "target": {
+                            "type": "BUTTON",
+                            "class": "x-test-live",
+                            "id": ""
+                        },
+                        "stamp": 1607556019388
+                    },
+                    {
+                        "position": {
+                            "x": 431,
+                            "y": 111
+                        },
+                        "target": {
+                            "type": "LIVE-B",
+                            "class": "",
+                            "id": ""
+                        },
+                        "stamp": 1607556022085
+                    },
+                    {
+                        "position": {
+                            "x": 602,
+                            "y": 355
+                        },
+                        "target": {
+                            "type": "FRX-BTN-CLOSE",
+                            "class": "",
+                            "id": ""
+                        },
+                        "stamp": 1607556040765
+                    },
+                    {
+                        "position": {
+                            "x": 462,
+                            "y": 77
+                        },
+                        "target": {
+                            "type": "LIVE-B",
+                            "class": "x-ss",
+                            "id": ""
+                        },
+                        "stamp": 1607556053302
+                    },
+                    {
+                        "position": {
+                            "x": 519,
+                            "y": 362
+                        },
+                        "target": {
+                            "type": "FRX-BTN-CLOSE",
+                            "class": "",
+                            "id": ""
+                        },
+                        "stamp": 1607556053925
+                    },
+                    {
+                        "position": {
+                            "x": 521,
+                            "y": 369
+                        },
+                        "target": {
+                            "type": "LIVE-STUD",
+                            "class": "",
+                            "id": ""
+                        },
+                        "stamp": 1607556054352
+                    },
+                    {
+                        "position": {
+                            "x": 567,
+                            "y": 264
+                        },
+                        "target": {
+                            "type": "LIVE-STUD",
+                            "class": "",
+                            "id": ""
+                        },
+                        "stamp": 1607556130679
+                    },
+                    {
+                        "position": {
+                            "x": 379,
+                            "y": 59
+                        },
+                        "target": {
+                            "type": "LIVE-B",
+                            "class": "x-ss",
+                            "id": ""
+                        },
+                        "stamp": 1607556131880
+                    },
+                    {
+                        "position": {
+                            "x": 514,
+                            "y": 352
+                        },
+                        "target": {
+                            "type": "FRX-BTN-CLOSE",
+                            "class": "",
+                            "id": ""
+                        },
+                        "stamp": 1607556132920
+                    },
+                    {
+                        "position": {
+                            "x": 57,
+                            "y": 225
+                        },
+                        "target": {
+                            "type": "IMG",
+                            "class": "x-icon",
+                            "id": ""
+                        },
+                        "stamp": 1607556133745
+                    },
+                    {
+                        "position": {
+                            "x": 666,
+                            "y": 157
+                        },
+                        "target": {
+                            "type": "SPAN",
+                            "class": "",
+                            "id": ""
+                        },
+                        "stamp": 1607556134555
+                    },
+                    {
+                        "position": {
+                            "x": 625,
+                            "y": 346
+                        },
+                        "target": {
+                            "type": "DIV",
+                            "class": "frx-suffix",
+                            "id": ""
+                        },
+                        "stamp": 1607556137999
+                    },
+                    {
+                        "position": {
+                            "x": 613,
+                            "y": 368
+                        },
+                        "target": {
+                            "type": "FRX-BTN-CLOSE",
+                            "class": "",
+                            "id": ""
+                        },
+                        "stamp": 1607556138249
+                    },
+                    {
+                        "position": {
+                            "x": 284,
+                            "y": 256
+                        },
+                        "target": {
+                            "type": "SPAN",
+                            "class": "visIntelQue",
+                            "id": ""
+                        },
+                        "stamp": 1607556150425
+                    },
+                    {
+                        "position": {
+                            "x": 272,
+                            "y": 344
+                        },
+                        "target": {
+                            "type": "SPAN",
+                            "class": "visIntelQue",
+                            "id": ""
+                        },
+                        "stamp": 1607556153080
                     }
                 ],
                 "actions": [
@@ -984,6 +1280,42 @@
                     {
                         "action": "StartSocketPolling",
                         "stamp": 1607555533882
+                    },
+                    {
+                        "action": "RenderTestList",
+                        "stamp": 1607556010574
+                    },
+                    {
+                        "action": "RenderTestList",
+                        "stamp": 1607556012148
+                    },
+                    {
+                        "action": "RenderTestList",
+                        "stamp": 1607556017747
+                    },
+                    {
+                        "action": "StartLiveTesting",
+                        "stamp": 1607556019388
+                    },
+                    {
+                        "action": "StartSocketPolling",
+                        "stamp": 1607556020794
+                    },
+                    {
+                        "action": "RenderTestList",
+                        "stamp": 1607556133743
+                    },
+                    {
+                        "action": "StartDataVis",
+                        "stamp": 1607556138291
+                    },
+                    {
+                        "action": "InsightsUsage",
+                        "stamp": 1607556150424
+                    },
+                    {
+                        "action": "InsightsUsage",
+                        "stamp": 1607556153080
                     }
                 ],
                 "passalong": {
