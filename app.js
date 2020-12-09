@@ -549,7 +549,7 @@ app.post("/analytics/*", function(req, res) {
   AnFile[LEAS][UUID] = AnFile[LEAS][UUID] || {};
   AnFile[LEAS][UUID][STMP] = Analytics;
 
-  res.status(200);
+  res.json({status: 200});
 });
 
 app.get('/', function(req, res) {
