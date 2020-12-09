@@ -548,8 +548,12 @@ app.post("/analytics/*", function(req, res) {
   AnFile[LEAS] = AnFile[LEAS] || {};
   AnFile[LEAS][UUID] = AnFile[LEAS][UUID] || {};
   if(AnFile[LEAS][UUID][STMP]) {
-    AnFile[LEAS][UUID][STMP].clicks.push(Analytics.clicks);
-    AnFile[LEAS][UUID][STMP].actions.push(Analytics.actions)
+    for(let i=0; i<Analytics.clicks.length;i++) {
+      AnFile[LEAS][UUID][STMP].clicks.push(Analytics.clicks[i]);
+    }
+    for(let i=0; i<Analytics.actions.length;i++) {
+      AnFile[LEAS][UUID][STMP].actions.push(Analytics.actions[i]);
+    }
   } else {
     AnFile[LEAS][UUID][STMP] = Analytics
   }
