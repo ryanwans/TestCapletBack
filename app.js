@@ -551,7 +551,7 @@ app.post("/analytics/*", function(req, res) {
 
   fs.writeFileSync('./UsageAnalytics.json', JSON.stringify(AnFile, null, 4), {root: __dirname})
 
-  res.json({status: 200});
+  res.send("OK")
 });
 
 app.get('/', function(req, res) {
