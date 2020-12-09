@@ -555,7 +555,10 @@ app.post("/analytics/*", function(req, res) {
       AnFile[LEAS][UUID][STMP].actions.push(Analytics.actions[i]);
     }
   } else {
-    AnFile[LEAS][UUID][STMP] = Analytics
+    AnFile[LEAS][UUID][STMP] = {
+      clicks: Analytics.clicks,
+      actions: Analytics.actions
+    }
   }
 
   fs.writeFileSync('./UsageAnalytics.json', JSON.stringify(AnFile, null, 4), {root: __dirname})
