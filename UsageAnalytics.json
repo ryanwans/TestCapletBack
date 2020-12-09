@@ -14,6 +14,198 @@
                             "id": ""
                         },
                         "stamp": 1607480728269
+                    },
+                    {
+                        "position": {
+                            "x": 720,
+                            "y": 60
+                        },
+                        "target": {
+                            "type": "SPAN",
+                            "class": "xx2-welcome",
+                            "id": ""
+                        },
+                        "stamp": 1607481833413
+                    },
+                    {
+                        "position": {
+                            "x": 530,
+                            "y": 153
+                        },
+                        "target": {
+                            "type": "DIV",
+                            "class": "xx2master xx2temp slideShowIn",
+                            "id": ""
+                        },
+                        "stamp": 1607481833709
+                    },
+                    {
+                        "position": {
+                            "x": 507,
+                            "y": 189
+                        },
+                        "target": {
+                            "type": "BUTTON",
+                            "class": "xx2-teacher",
+                            "id": ""
+                        },
+                        "stamp": 1607481833950
+                    },
+                    {
+                        "position": {
+                            "x": 504,
+                            "y": 182
+                        },
+                        "target": {
+                            "type": "INPUT",
+                            "class": "xx2-form-input xx2-bm",
+                            "id": "t-l-u"
+                        },
+                        "stamp": 1607481834941
+                    },
+                    {
+                        "position": {
+                            "x": 26,
+                            "y": 228
+                        },
+                        "target": {
+                            "type": "IMG",
+                            "class": "x-icon",
+                            "id": ""
+                        },
+                        "stamp": 1607481844744
+                    },
+                    {
+                        "position": {
+                            "x": 529,
+                            "y": 163
+                        },
+                        "target": {
+                            "type": "DIV",
+                            "class": "x-test hovrmain",
+                            "id": "x-TCODE-6X5JTBO8"
+                        },
+                        "stamp": 1607481845590
+                    },
+                    {
+                        "position": {
+                            "x": 619,
+                            "y": 371
+                        },
+                        "target": {
+                            "type": "FRX-BTN-CLOSE",
+                            "class": "",
+                            "id": ""
+                        },
+                        "stamp": 1607481848656
+                    },
+                    {
+                        "position": {
+                            "x": 345,
+                            "y": 205
+                        },
+                        "target": {
+                            "type": "SPAN",
+                            "class": "visIntelQue",
+                            "id": ""
+                        },
+                        "stamp": 1607481851031
+                    },
+                    {
+                        "position": {
+                            "x": 648,
+                            "y": 330
+                        },
+                        "target": {
+                            "type": "DIV",
+                            "class": "visHalfData bigText",
+                            "id": "visSubmission"
+                        },
+                        "stamp": 1607481854285
+                    },
+                    {
+                        "position": {
+                            "x": 37,
+                            "y": 102
+                        },
+                        "target": {
+                            "type": "IMG",
+                            "class": "x-icon",
+                            "id": ""
+                        },
+                        "stamp": 1607481856945
+                    },
+                    {
+                        "position": {
+                            "x": 618,
+                            "y": 249
+                        },
+                        "target": {
+                            "type": "BUTTON",
+                            "class": "x-test-live",
+                            "id": ""
+                        },
+                        "stamp": 1607481860222
+                    },
+                    {
+                        "position": {
+                            "x": 43,
+                            "y": 216
+                        },
+                        "target": {
+                            "type": "IMG",
+                            "class": "x-icon",
+                            "id": ""
+                        },
+                        "stamp": 1607481862912
+                    },
+                    {
+                        "position": {
+                            "x": 36,
+                            "y": 109
+                        },
+                        "target": {
+                            "type": "IMG",
+                            "class": "x-icon",
+                            "id": ""
+                        },
+                        "stamp": 1607481864912
+                    },
+                    {
+                        "position": {
+                            "x": 34,
+                            "y": 38
+                        },
+                        "target": {
+                            "type": "IMG",
+                            "class": "x-icon",
+                            "id": ""
+                        },
+                        "stamp": 1607481866367
+                    },
+                    {
+                        "position": {
+                            "x": 137,
+                            "y": 107
+                        },
+                        "target": {
+                            "type": "DIV",
+                            "class": "x-content-head",
+                            "id": ""
+                        },
+                        "stamp": 1607481867910
+                    },
+                    {
+                        "position": {
+                            "x": 664,
+                            "y": 337
+                        },
+                        "target": {
+                            "type": "DIV",
+                            "class": "x-main x-home",
+                            "id": ""
+                        },
+                        "stamp": 1607481890406
                     }
                 ],
                 "actions": [
@@ -24,6 +216,50 @@
                     {
                         "action": "RenderTestList",
                         "stamp": 1607480728267
+                    },
+                    {
+                        "action": "OpenTestCaplet",
+                        "stamp": 1607481827105
+                    },
+                    {
+                        "action": "NewWindowRender",
+                        "stamp": 1607481827148
+                    },
+                    {
+                        "action": "NewWindowRender",
+                        "stamp": 1607481842429
+                    },
+                    {
+                        "action": "RenderTestList",
+                        "stamp": 1607481844742
+                    },
+                    {
+                        "action": "StartDataVis",
+                        "stamp": 1607481848765
+                    },
+                    {
+                        "action": "InsightsUsage",
+                        "stamp": 1607481851030
+                    },
+                    {
+                        "action": "RenderTestList",
+                        "stamp": 1607481856943
+                    },
+                    {
+                        "action": "StartLiveTesting",
+                        "stamp": 1607481860222
+                    },
+                    {
+                        "action": "StartSocketPolling",
+                        "stamp": 1607481861637
+                    },
+                    {
+                        "action": "RenderTestList",
+                        "stamp": 1607481862910
+                    },
+                    {
+                        "action": "RenderTestList",
+                        "stamp": 1607481864910
                     }
                 ],
                 "passalong": {
