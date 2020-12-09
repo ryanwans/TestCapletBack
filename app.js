@@ -173,12 +173,13 @@ app.use(function(req, res, next) {
 
 app.post('/a3/ported/qgr/enco/new/now/result=json', function(req, res) {
   var Data = req.body;
-  var [Grade, Output] = GradeTestData(Data, true);
+  var OUT = GradeTestData(Data, true);
+  var Grade = OUT[0], Output = OUT[1];
   var f = fs.readFileSync('./bank/AnswerRepo.json', {root: __dirname});
   f = JSON.parse(f);
   f[Data.tuid][Data.name].score = Grade;
   fs.writeFileSync('./bank/AnswerRepo.json', JSON.stringify(f), {root: __dirname});
-  console.log(Output);
+  console.log("OUTPUT FILE::::::\n\n" + JSON.stringify(Output, null, 4));
   res.json([Grade, Output]);
 })
 
