@@ -14,6 +14,42 @@
                             "id": ""
                         },
                         "stamp": 1607480728269
+                    },
+                    {
+                        "position": {
+                            "x": 465,
+                            "y": 168
+                        },
+                        "target": {
+                            "type": "BUTTON",
+                            "class": "xx2-teacher",
+                            "id": ""
+                        },
+                        "stamp": 1607481501764
+                    },
+                    {
+                        "position": {
+                            "x": 459,
+                            "y": 163
+                        },
+                        "target": {
+                            "type": "INPUT",
+                            "class": "xx2-form-input xx2-bm",
+                            "id": "t-l-u"
+                        },
+                        "stamp": 1607481503106
+                    },
+                    {
+                        "position": {
+                            "x": 43,
+                            "y": 220
+                        },
+                        "target": {
+                            "type": "IMG",
+                            "class": "x-icon",
+                            "id": ""
+                        },
+                        "stamp": 1607481515270
                     }
                 ],
                 "actions": [
@@ -24,6 +60,22 @@
                     {
                         "action": "RenderTestList",
                         "stamp": 1607480728267
+                    },
+                    {
+                        "action": "OpenTestCaplet",
+                        "stamp": 1607481496456
+                    },
+                    {
+                        "action": "NewWindowRender",
+                        "stamp": 1607481496504
+                    },
+                    {
+                        "action": "NewWindowRender",
+                        "stamp": 1607481509345
+                    },
+                    {
+                        "action": "RenderTestList",
+                        "stamp": 1607481515268
                     }
                 ],
                 "passalong": {
@@ -35,6 +87,114 @@
                 },
                 "stamp": "1607462894871",
                 "uuid": "MTYwNzQ2Mjg5NDg3MQ==",
+                "lease": "1bafb88c-939c-413d-b0b2-80f33e794fe1"
+            }
+        },
+        "undefined": {
+            "undefined": {
+                "clicks": [
+                    {
+                        "position": {
+                            "x": 678,
+                            "y": 103
+                        },
+                        "target": {
+                            "type": "DIV",
+                            "class": "x-main x-you",
+                            "id": ""
+                        },
+                        "stamp": 1607481566797
+                    },
+                    {
+                        "position": {
+                            "x": 671,
+                            "y": 152
+                        },
+                        "target": {
+                            "type": "SPAN",
+                            "class": "",
+                            "id": ""
+                        },
+                        "stamp": 1607481567248
+                    },
+                    {
+                        "position": {
+                            "x": 621,
+                            "y": 363
+                        },
+                        "target": {
+                            "type": "FRX-BTN-CLOSE",
+                            "class": "",
+                            "id": ""
+                        },
+                        "stamp": 1607481570567
+                    },
+                    {
+                        "position": {
+                            "x": 263,
+                            "y": 219
+                        },
+                        "target": {
+                            "type": "SPAN",
+                            "class": "visIntelQue",
+                            "id": ""
+                        },
+                        "stamp": 1607481573310
+                    },
+                    {
+                        "position": {
+                            "x": 32,
+                            "y": 524
+                        },
+                        "target": {
+                            "type": "IMG",
+                            "class": "x-icon-bottom",
+                            "id": ""
+                        },
+                        "stamp": 1607481587210
+                    },
+                    {
+                        "position": {
+                            "x": 786,
+                            "y": 346
+                        },
+                        "target": {
+                            "type": "DIV",
+                            "class": "x-main x-you",
+                            "id": ""
+                        },
+                        "stamp": 1607481591150
+                    },
+                    {
+                        "position": {
+                            "x": 27,
+                            "y": 40
+                        },
+                        "target": {
+                            "type": "IMG",
+                            "class": "x-icon",
+                            "id": ""
+                        },
+                        "stamp": 1607481610136
+                    }
+                ],
+                "actions": [
+                    {
+                        "action": "StartDataVis",
+                        "stamp": 1607481570616
+                    },
+                    {
+                        "action": "InsightsUsage",
+                        "stamp": 1607481573309
+                    }
+                ],
+                "passalong": {
+                    "stamp": 1607481629353,
+                    "int": 1,
+                    "err": 3,
+                    "appId": "RyanWans-TestCaplet_ZK3GEm4on1AdatPgBMRW",
+                    "stackDelay": "now"
+                },
                 "lease": "1bafb88c-939c-413d-b0b2-80f33e794fe1"
             }
         }
