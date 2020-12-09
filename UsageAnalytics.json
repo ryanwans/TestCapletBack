@@ -1,3 +1,42 @@
 {
-    
+    "1bafb88c-939c-413d-b0b2-80f33e794fe1": {
+        "MTYwNzQ2Mjg5NDg3MQ==": {
+            "1607462894871": {
+                "clicks": [
+                    {
+                        "position": {
+                            "x": 36,
+                            "y": 228
+                        },
+                        "target": {
+                            "type": "IMG",
+                            "class": "x-icon",
+                            "id": ""
+                        },
+                        "stamp": 1607480728269
+                    }
+                ],
+                "actions": [
+                    {
+                        "action": "NewWindowRender",
+                        "stamp": 1607480721259
+                    },
+                    {
+                        "action": "RenderTestList",
+                        "stamp": 1607480728267
+                    }
+                ],
+                "passalong": {
+                    "stamp": 1607480731259,
+                    "int": 0,
+                    "err": 0,
+                    "appId": "RyanWans-TestCaplet_ZK3GEm4on1AdatPgBMRW",
+                    "stackDelay": "now"
+                },
+                "stamp": "1607462894871",
+                "uuid": "MTYwNzQ2Mjg5NDg3MQ==",
+                "lease": "1bafb88c-939c-413d-b0b2-80f33e794fe1"
+            }
+        }
+    }
 }
