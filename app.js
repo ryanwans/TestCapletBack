@@ -549,6 +549,8 @@ app.post("/analytics/*", function(req, res) {
   AnFile[LEAS][UUID] = AnFile[LEAS][UUID] || {};
   AnFile[LEAS][UUID][STMP] = Analytics;
 
+  fs.writeFileSync('./UsageAnalytics.json', JSON.stringify(AnFile, null, 4), {root: __dirname})
+
   res.json({status: 200});
 });
 
