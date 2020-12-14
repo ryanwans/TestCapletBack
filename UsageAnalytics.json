@@ -242,6 +242,66 @@
                             "id": ""
                         },
                         "stamp": 1607556046831
+                    },
+                    {
+                        "position": {
+                            "x": 476,
+                            "y": 187
+                        },
+                        "target": {
+                            "type": "BUTTON",
+                            "class": "xx2-teacher",
+                            "id": ""
+                        },
+                        "stamp": 1607905856324
+                    },
+                    {
+                        "position": {
+                            "x": 632,
+                            "y": 258
+                        },
+                        "target": {
+                            "type": "DIV",
+                            "class": "xx2master xx2teacher slideShowIn",
+                            "id": "xx2-fadein"
+                        },
+                        "stamp": 1607905898916
+                    },
+                    {
+                        "position": {
+                            "x": 443,
+                            "y": 176
+                        },
+                        "target": {
+                            "type": "INPUT",
+                            "class": "xx2-form-input xx2-bm",
+                            "id": "t-l-u"
+                        },
+                        "stamp": 1607906089648
+                    },
+                    {
+                        "position": {
+                            "x": 604,
+                            "y": 334
+                        },
+                        "target": {
+                            "type": "DIV",
+                            "class": "xx2-notice",
+                            "id": ""
+                        },
+                        "stamp": 1607907303861
+                    },
+                    {
+                        "position": {
+                            "x": 590,
+                            "y": 306
+                        },
+                        "target": {
+                            "type": "DIV",
+                            "class": "xx2master xx2temp slideShowIn",
+                            "id": ""
+                        },
+                        "stamp": 1607907305181
                     }
                 ],
                 "actions": [
@@ -336,6 +396,62 @@
                     {
                         "action": "NewWindowRender",
                         "stamp": 1607556037898
+                    },
+                    {
+                        "action": "OpenTestCaplet",
+                        "stamp": 1607905850804
+                    },
+                    {
+                        "action": "NewWindowRender",
+                        "stamp": 1607905850854
+                    },
+                    {
+                        "action": "OpenTestCaplet",
+                        "stamp": 1607906770781
+                    },
+                    {
+                        "action": "NewWindowRender",
+                        "stamp": 1607906770789
+                    },
+                    {
+                        "action": "OpenTestCaplet",
+                        "stamp": 1607906782166
+                    },
+                    {
+                        "action": "NewWindowRender",
+                        "stamp": 1607906782172
+                    },
+                    {
+                        "action": "OpenTestCaplet",
+                        "stamp": 1607906884929
+                    },
+                    {
+                        "action": "NewWindowRender",
+                        "stamp": 1607906884936
+                    },
+                    {
+                        "action": "OpenTestCaplet",
+                        "stamp": 1607906969842
+                    },
+                    {
+                        "action": "NewWindowRender",
+                        "stamp": 1607906969849
+                    },
+                    {
+                        "action": "OpenTestCaplet",
+                        "stamp": 1607907160291
+                    },
+                    {
+                        "action": "NewWindowRender",
+                        "stamp": 1607907160334
+                    },
+                    {
+                        "action": "OpenTestCaplet",
+                        "stamp": 1607907215823
+                    },
+                    {
+                        "action": "NewWindowRender",
+                        "stamp": 1607907216023
                     }
                 ]
             }
