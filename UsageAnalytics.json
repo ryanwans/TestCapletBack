@@ -452,6 +452,54 @@
                     {
                         "action": "NewWindowRender",
                         "stamp": 1607907216023
+                    },
+                    {
+                        "action": "OpenTestCaplet",
+                        "stamp": 1607998586431
+                    },
+                    {
+                        "action": "NewWindowRender",
+                        "stamp": 1607998586480
+                    },
+                    {
+                        "action": "OpenTestCaplet",
+                        "stamp": 1607998609730
+                    },
+                    {
+                        "action": "NewWindowRender",
+                        "stamp": 1607998609737
+                    },
+                    {
+                        "action": "OpenTestCaplet",
+                        "stamp": 1607999384597
+                    },
+                    {
+                        "action": "NewWindowRender",
+                        "stamp": 1607999384603
+                    },
+                    {
+                        "action": "OpenTestCaplet",
+                        "stamp": 1607999414623
+                    },
+                    {
+                        "action": "NewWindowRender",
+                        "stamp": 1607999414630
+                    },
+                    {
+                        "action": "OpenTestCaplet",
+                        "stamp": 1607999432976
+                    },
+                    {
+                        "action": "NewWindowRender",
+                        "stamp": 1607999432982
+                    },
+                    {
+                        "action": "OpenTestCaplet",
+                        "stamp": 1607999446178
+                    },
+                    {
+                        "action": "NewWindowRender",
+                        "stamp": 1607999446185
                     }
                 ]
             }
