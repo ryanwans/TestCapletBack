@@ -11,7 +11,8 @@
                 "useLive": true,
                 "open": false,
                 "time": 300000,
-                "wProtect": true
+                "wProtect": true,
+                "printable": true
             }
         },
         "S8H68AH1": {
@@ -25,7 +26,8 @@
                 "useLive": false,
                 "open": false,
                 "time": null,
-                "wProtect": true
+                "wProtect": true,
+                "printable": true
             }
         }
     }
