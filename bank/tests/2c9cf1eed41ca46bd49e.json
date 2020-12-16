@@ -17,28 +17,281 @@
         "_id": "9ee4bdf4dde151a4", "_index": 1,
         "_data": {
             "qType": 0,
-            "qValue": "The computer awaits a(n) ___ command signal before performing an action.",
+            "qValue": "A small square in the upper right corner of a window which, when clicked, will expand the window to fill the whole screen is called a(n):",
             "qAns": {
-                "0": "interrupt.",
-                "1": "time slice.",
-                "2": "prompt.",
-                "3": "event."
+                "0": "icon",
+                "1": "scroll box",
+                "2": "dialog box",
+                "3": "maximize box"
             },
-            "qBucket": [0, 0, 1, 0], "qShorthand": 2
+            "qBucket": [0, 0, 0, 1], "qShorthand": 3
         }
     },
     {
         "_id": "9ee4bdf4dde151a4", "_index": 2,
         "_data": {
             "qType": 0,
-            "qValue": "The computer awaits a(n) ___ command signal before performing an action.",
+            "qValue": "The component of a Web browser where you type the URL is known as the:",
             "qAns": {
-                "0": "interrupt.",
-                "1": "time slice.",
-                "2": "prompt.",
-                "3": "event."
+                "0": "file menu",
+                "1": "status bar",
+                "2": "address bar",
+                "3": "bookmarks"
             },
             "qBucket": [0, 0, 1, 0], "qShorthand": 2
+        }
+    },
+    {
+        "_id": "9ee4bdf4dde151a4", "_index": 3,
+        "_data": {
+            "qType": 0,
+            "qValue": "The first step when clearing a paper jam is:",
+            "qAns": {
+                "0": "use a screwdriver to disassemble the printer",
+                "1": "open the printer cover",
+                "2": "remove the toner cartridge",
+                "3": "turn off the printer and unplug the power cable"
+            },
+            "qBucket": [0, 0, 0, 1], "qShorthand": 3
+        }
+    },
+    {
+        "_id": "9ee4bdf4dde151a4", "_index": 4,
+        "_data": {
+            "qType": 0,
+            "qValue": "A _____ device forwards data packets between computer networks.",
+            "qAns": {
+                "0": "switch",
+                "1": "hub",
+                "2": "router",
+                "3": "NIC"
+            },
+            "qBucket": [0, 0, 1, 0], "qShorthand": 2
+        }
+    },
+    {
+        "_id": "9ee4bdf4dde151a4", "_index": 5,
+        "_data": {
+            "qType": 3,
+            "qValue": "The advancement of a product, idea, or point of view through publicity and/or advertising is: promotion",
+            "qAns": "::$",
+            "qBucket": [true], "qShorthand": 1
+        }
+    },
+    {
+        "_id": "9ee4bdf4dde151a4", "_index": 6,
+        "_data": {
+            "qType": 3,
+            "qValue": "The final step of the sales process is: close the sale",
+            "qAns": "::$",
+            "qBucket": [false], "qShorthand": 0
+        }
+    },
+    {
+        "_id": "9ee4bdf4dde151a4", "_index": 7,
+        "_data": {
+            "qType": 3,
+            "qValue": "Sales associates must be good listeners in order to know when to abandon a sales pitch",
+            "qAns": "::$",
+            "qBucket": [false], "qShorthand": 0
+        }
+    },
+    {
+        "_id": "9ee4bdf4dde151a4", "_index": 8,
+        "_data": {
+            "qType": 3,
+            "qValue": "One of the biggest disadvantages associated with newspaper advertising is the: short life span",
+            "qAns": "::$",
+            "qBucket": [true], "qShorthand": 1
+        }
+    },
+    {
+        "_id": "9ee4bdf4dde151a4", "_index": 9,
+        "_data": {
+            "qType": 3,
+            "qValue": "One of biggest disadvantages associated with television advertising is the: large, diverse audience",
+            "qAns": "::$",
+            "qBucket": [false], "qShorthand": 0
+        }
+    },
+    {
+        "_id": "9ee4bdf4dde151a4", "_index": 10,
+        "_data": {
+            "qType": 0,
+            "qValue": "Which of the following is a desirable quality of a business owner?",
+            "qAns": {
+                "0": "decision-making skills",
+                "1": "unmotivated",
+                "2": "not detailed",
+                "3": "passive skills"
+            },
+            "qBucket": [1, 0, 0, 0], "qShorthand": 0
+        }
+    },
+    {
+        "_id": "9ee4bdf4dde151a4", "_index": 11,
+        "_data": {
+            "qType": 0,
+            "qValue": "Most successful entrepreneurs start businesses because the:",
+            "qAns": {
+                "0": "market is fully saturated",
+                "1": "market is not open",
+                "2": "market is unfamiliar",
+                "3": "market is in demand"
+            },
+            "qBucket": [0, 0, 0, 1], "qShorthand": 3
+        }
+    },
+    {
+        "_id": "9ee4bdf4dde151a4", "_index": 12,
+        "_data": {
+            "qType": 0,
+            "qValue": "Which is <b>not</b> a way that entrepreneurs raise money to start a business?",
+            "qAns": {
+                "0": "borrowing",
+                "1": "savings",
+                "2": "issuing stock",
+                "3": "collective taxes"
+            },
+            "qBucket": [0, 0, 0, 1], "qShorthand": 3
+        }
+    },
+    {
+        "_id": "9ee4bdf4dde151a4", "_index": 13,
+        "_data": {
+            "qType": 0,
+            "qValue": "Often small businesses such as pizza parlors and beauty boutiques are run as:",
+            "qAns": {
+                "0": "nonprofit businesses",
+                "1": "sole proprietorships",
+                "2": "general partnerships",
+                "3": "an LLC"
+            },
+            "qBucket": [0, 1, 0, 0], "qShorthand": 1
+        }
+    },
+    {
+        "_id": "9ee4bdf4dde151a4", "_index": 14,
+        "_data": {
+            "qType": 0,
+            "qValue": "The feasibility analysis includes all of the following <b>except</b> ____ analysis.",
+            "qAns": {
+                "0": "product",
+                "1": "competitive",
+                "2": "industry",
+                "3": "investor"
+            },
+            "qBucket": [0, 0, 0, 1], "qShorthand": 3
+        }
+    },
+    {
+        "_id": "9ee4bdf4dde151a4", "_index": 15,
+        "_data": {
+            "qType": 2,
+            "qValue": "Fill in the blank.",
+            "qAns": {
+                "keys": [
+                    "An intangible account is a(n) ::$",
+                    "Adjusting entries are posted to the ::$ , similar to other entriees."
+                ],
+                "values": [
+                    "trademark",
+                    "ledger"
+                ]
+            },
+            "qBucket": {
+                "0": 0,
+                "1": 1
+            },
+            "qShorthand": "0011"
+        }
+    },
+    {
+        "_id": "9ee4bdf4dde151a4", "_index": 16,
+        "_data": {
+            "qType": 2,
+            "qValue": "Fill in the blank.",
+            "qAns": {
+                "keys": [
+                    "::$ has a column for the invoice numbers.",
+                    "::$ will always affect one Income Statement account and one Balance Sheet account."
+                ],
+                "values": [
+                    "Adjusting Entry",
+                    "Sales Journal"
+                ]
+            },
+            "qBucket": {
+                "0": 1,
+                "1": 0
+            },
+            "qShorthand": "0110"
+        }
+    },
+    {
+        "_id": "9ee4bdf4dde151a4", "_index": 17,
+        "_data": {
+            "qType": 2,
+            "qValue": "Fill in the blank.",
+            "qAns": {
+                "keys": [
+                    "Each revenue account must begin each fiscal period with a ::$",
+                    "To close the sales account, debit ::$"
+                ],
+                "values": [
+                    "zero balance",
+                    "sales; credit income summary"
+                ]
+            },
+            "qBucket": {
+                "0": 0,
+                "1": 1
+            },
+            "qShorthand": "0011"
+        }
+    },
+    {
+        "_id": "9ee4bdf4dde151a4", "_index": 18,
+        "_data": {
+            "qType": 2,
+            "qValue": "Fill in the blank.",
+            "qAns": {
+                "keys": [
+                    "Property, plant and equipment would not include ::$",
+                    "::$ is not an example of a permanent account"
+                ],
+                "values": [
+                    "depreciation expense buildings",
+                    "intangible assets"
+                ]
+            },
+            "qBucket": {
+                "0": 1,
+                "1": 0
+            },
+            "qShorthand": "0110"
+        }
+    },
+    {
+        "_id": "9ee4bdf4dde151a4", "_index": 19,
+        "_data": {
+            "qType": 2,
+            "qValue": "Fill in the blank.",
+            "qAns": {
+                "keys": [
+                    "::$ is an example of a current asset",
+                    "::$ is an example of an intangible asset"
+                ],
+                "values": [
+                    "Inventory",
+                    "Copyrights"
+                ]
+            },
+            "qBucket": {
+                "0": 0,
+                "1": 1
+            },
+            "qShorthand": "0011"
         }
     }
 ]
