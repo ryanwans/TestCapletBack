@@ -180,6 +180,8 @@ app.post('/a3/ported/qgr/enco/new/now/result=json', function(req, res) {
       DataBuffer = JSON.stringify(DataBuffer.data);
   var f = fs.readFileSync('./bank/AnswerRepo.json', {root: __dirname});
   f = JSON.parse(f);
+  f[Data.tuid] = f[Data.tuid] || {};
+  f[Data.tuid][Data.name] = f[Data.tuid][Data.name] || {};
   f[Data.tuid][Data.name].score = Grade;
   fs.writeFileSync('./bank/AnswerRepo.json', JSON.stringify(f), {root: __dirname});
   console.log("OUTPUT FILE::::::\n\n" + JSON.stringify(Output, null, 4));
