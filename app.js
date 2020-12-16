@@ -446,6 +446,7 @@ const GradeTestData = (TestData, generateReport) => {
   for(let i=0; i<file.length; i++) {
     var Q = file[i];
     var type = Q["_data"]["qType"];
+    try {
     if(type == 0) {
       // multichoice - shorthand
       console.log(Answers[i] + ":" + Q["_data"].qShorthand);
@@ -524,7 +525,9 @@ const GradeTestData = (TestData, generateReport) => {
         A: fstr
       }
     }
+    }catch(e){}
   }
+  
   console.log(points);
   if(generateReport) {
     return [points, ansReport];
