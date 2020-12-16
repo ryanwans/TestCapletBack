@@ -24,7 +24,7 @@
                 "randomOrder": true,
                 "randomQs": true,
                 "useLive": false,
-                "open": false,
+                "open": true,
                 "time": null,
                 "wProtect": true,
                 "printable": true
