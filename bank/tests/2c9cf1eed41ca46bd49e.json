@@ -297,7 +297,7 @@
     {
         "_id": "9ee4bdf4dde151a4", "_index": 20,
         "_data": {
-            "qType": 4,
+            "qType": 5,
             "qValue": "Overtime pay is generally paid for hours over this many in a week:",
             "qAns": ["35", "40", "45", "55"],
             "qBucket": 1,
@@ -307,7 +307,7 @@
     {
         "_id": "9ee4bdf4dde151a4", "_index": 21,
         "_data": {
-            "qType": 4,
+            "qType": 5,
             "qValue": "Calculate the percentage gain or loss for the following stock: purchased 1000 shares of ABC Company stock for $45; sold stock for $52:",
             "qAns": ["12.4% Gain", "15.6% Gain", "16.6% Gain", "86.5% Gain"],
             "qBucket": 0,
@@ -317,7 +317,7 @@
     {
         "_id": "9ee4bdf4dde151a4", "_index": 22,
         "_data": {
-            "qType": 4,
+            "qType": 5,
             "qValue": "An investment account that increases from $3,000 to $3,271 in one year is earning about ____ percent",
             "qAns": ["5%", "7%", "9%", "11%"],
             "qBucket": 2,
@@ -327,7 +327,7 @@
     {
         "_id": "9ee4bdf4dde151a4", "_index": 23,
         "_data": {
-            "qType": 4,
+            "qType": 5,
             "qValue": "Generally, the first year of ownership of a new car results in this percentage of depreciation:",
             "qAns": ["5%", "15-20%", "30%", "50%"],
             "qBucket": 1,
@@ -337,7 +337,7 @@
     {
         "_id": "9ee4bdf4dde151a4", "_index": 24,
         "_data": {
-            "qType": 4,
+            "qType": 5,
             "qValue": "When you open a checking account, most banks will require you to have an initial deposit of at least:",
             "qAns": ["$50", "$250", "$500", "$1000"],
             "qBucket": 0,
@@ -347,7 +347,7 @@
     {
         "_id": "9ee4bdf4dde151a4", "_index": 25,
         "_data": {
-            "qType": 4,
+            "qType": 5,
             "qValue": "If you have filed for chapter 7 bankruptcy, the information may be kept on your credit report for this many years:",
             "qAns": ["5", "10", "15", "20"],
             "qBucket": 1,
@@ -357,7 +357,7 @@
     {
         "_id": "9ee4bdf4dde151a4", "_index": 26,
         "_data": {
-            "qType": 4,
+            "qType": 5,
             "qValue": "Based on the following information, what amount would be subtracted from the bank balance side of a checking account reconciliation? Service charge, $15; Outstanding checks, $255; Interest $5.50; Deposits in transit $140.",
             "qAns": ["$15", "$140", "$255", "$160.50"],
             "qBucket": 2,
@@ -367,7 +367,7 @@
     {
         "_id": "9ee4bdf4dde151a4", "_index": 27,
         "_data": {
-            "qType": 4,
+            "qType": 5,
             "qValue": "A person with a total tax liability of $4,650 and withholding of federal taxes of $4,275 would:",
             "qAns": ["owe $375", "owe $4,650", "get $375", "get $4,650"],
             "qBucket": 0,
