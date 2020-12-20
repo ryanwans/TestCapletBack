@@ -3410,6 +3410,2382 @@
                             "id": ""
                         },
                         "stamp": 1608158536465
+                    },
+                    {
+                        "position": {
+                            "x": 408,
+                            "y": 22
+                        },
+                        "target": {
+                            "type": "BUTTON",
+                            "class": "x-but-green x-t-start",
+                            "id": ""
+                        },
+                        "stamp": 1608164943200
+                    },
+                    {
+                        "position": {
+                            "x": 611,
+                            "y": 398
+                        },
+                        "target": {
+                            "type": "FRX-BTN-CLOSE",
+                            "class": "",
+                            "id": ""
+                        },
+                        "stamp": 1608164944096
+                    },
+                    {
+                        "position": {
+                            "x": 865,
+                            "y": 548
+                        },
+                        "target": {
+                            "type": "IMG",
+                            "class": "arr-for",
+                            "id": ""
+                        },
+                        "stamp": 1608164952386
+                    },
+                    {
+                        "position": {
+                            "x": 120,
+                            "y": 325
+                        },
+                        "target": {
+                            "type": "MANS",
+                            "class": "",
+                            "id": ""
+                        },
+                        "stamp": 1608164953748
+                    },
+                    {
+                        "position": {
+                            "x": 878,
+                            "y": 551
+                        },
+                        "target": {
+                            "type": "IMG",
+                            "class": "arr-for",
+                            "id": ""
+                        },
+                        "stamp": 1608164954535
+                    },
+                    {
+                        "position": {
+                            "x": 336,
+                            "y": 192
+                        },
+                        "target": {
+                            "type": "MTF",
+                            "class": "x-opt x-a-selected",
+                            "id": "index1"
+                        },
+                        "stamp": 1608164958923
+                    },
+                    {
+                        "position": {
+                            "x": 882,
+                            "y": 541
+                        },
+                        "target": {
+                            "type": "IMG",
+                            "class": "arr-for",
+                            "id": ""
+                        },
+                        "stamp": 1608164959537
+                    },
+                    {
+                        "position": {
+                            "x": 370,
+                            "y": 154
+                        },
+                        "target": {
+                            "type": "MCHOICE",
+                            "class": "x-opt x-a-selected",
+                            "id": "index0"
+                        },
+                        "stamp": 1608164960940
+                    },
+                    {
+                        "position": {
+                            "x": 873,
+                            "y": 557
+                        },
+                        "target": {
+                            "type": "IMG",
+                            "class": "arr-for",
+                            "id": ""
+                        },
+                        "stamp": 1608164961754
+                    },
+                    {
+                        "position": {
+                            "x": 28,
+                            "y": 548
+                        },
+                        "target": {
+                            "type": "IMG",
+                            "class": "arr-back",
+                            "id": ""
+                        },
+                        "stamp": 1608164968930
+                    },
+                    {
+                        "position": {
+                            "x": 853,
+                            "y": 543
+                        },
+                        "target": {
+                            "type": "IMG",
+                            "class": "arr-for",
+                            "id": ""
+                        },
+                        "stamp": 1608164970034
+                    },
+                    {
+                        "position": {
+                            "x": 596,
+                            "y": 557
+                        },
+                        "target": {
+                            "type": "BUTTON",
+                            "class": "x-but-green x-t-submit",
+                            "id": ""
+                        },
+                        "stamp": 1608164974071
+                    },
+                    {
+                        "position": {
+                            "x": 232,
+                            "y": 260
+                        },
+                        "target": {
+                            "type": "I",
+                            "class": "",
+                            "id": ""
+                        },
+                        "stamp": 1608164976262
+                    },
+                    {
+                        "position": {
+                            "x": 499,
+                            "y": 16
+                        },
+                        "target": {
+                            "type": "BUTTON",
+                            "class": "x-but-green x-t-start",
+                            "id": ""
+                        },
+                        "stamp": 1608165072098
+                    },
+                    {
+                        "position": {
+                            "x": 588,
+                            "y": 388
+                        },
+                        "target": {
+                            "type": "FRX-BTN-CLOSE",
+                            "class": "",
+                            "id": ""
+                        },
+                        "stamp": 1608165073932
+                    },
+                    {
+                        "position": {
+                            "x": 865,
+                            "y": 548
+                        },
+                        "target": {
+                            "type": "IMG",
+                            "class": "arr-for",
+                            "id": ""
+                        },
+                        "stamp": 1608165085980
+                    },
+                    {
+                        "position": {
+                            "x": 852,
+                            "y": 563
+                        },
+                        "target": {
+                            "type": "IMG",
+                            "class": "arr-for",
+                            "id": ""
+                        },
+                        "stamp": 1608165088954
+                    },
+                    {
+                        "position": {
+                            "x": 477,
+                            "y": 191
+                        },
+                        "target": {
+                            "type": "MTF",
+                            "class": "x-opt x-a-selected",
+                            "id": "index0"
+                        },
+                        "stamp": 1608165089727
+                    },
+                    {
+                        "position": {
+                            "x": 855,
+                            "y": 551
+                        },
+                        "target": {
+                            "type": "IMG",
+                            "class": "arr-for",
+                            "id": ""
+                        },
+                        "stamp": 1608165090533
+                    },
+                    {
+                        "position": {
+                            "x": 873,
+                            "y": 544
+                        },
+                        "target": {
+                            "type": "IMG",
+                            "class": "arr-for",
+                            "id": ""
+                        },
+                        "stamp": 1608165095838
+                    },
+                    {
+                        "position": {
+                            "x": 308,
+                            "y": 150
+                        },
+                        "target": {
+                            "type": "MCHOICE",
+                            "class": "x-opt x-a-selected",
+                            "id": "index0"
+                        },
+                        "stamp": 1608165097151
+                    },
+                    {
+                        "position": {
+                            "x": 563,
+                            "y": 554
+                        },
+                        "target": {
+                            "type": "BUTTON",
+                            "class": "x-but-green x-t-submit",
+                            "id": ""
+                        },
+                        "stamp": 1608165100114
+                    },
+                    {
+                        "position": {
+                            "x": 301,
+                            "y": 268
+                        },
+                        "target": {
+                            "type": "I",
+                            "class": "",
+                            "id": ""
+                        },
+                        "stamp": 1608165102645
+                    },
+                    {
+                        "position": {
+                            "x": 409,
+                            "y": 16
+                        },
+                        "target": {
+                            "type": "BUTTON",
+                            "class": "x-but-green x-t-start",
+                            "id": ""
+                        },
+                        "stamp": 1608165275548
+                    },
+                    {
+                        "position": {
+                            "x": 607,
+                            "y": 391
+                        },
+                        "target": {
+                            "type": "FRX-BTN-CLOSE",
+                            "class": "",
+                            "id": ""
+                        },
+                        "stamp": 1608165276310
+                    },
+                    {
+                        "position": {
+                            "x": 199,
+                            "y": 254
+                        },
+                        "target": {
+                            "type": "MCHOICE",
+                            "class": "x-opt x-a-selected",
+                            "id": "index2"
+                        },
+                        "stamp": 1608165280603
+                    },
+                    {
+                        "position": {
+                            "x": 880,
+                            "y": 558
+                        },
+                        "target": {
+                            "type": "IMG",
+                            "class": "arr-for",
+                            "id": ""
+                        },
+                        "stamp": 1608165281417
+                    },
+                    {
+                        "position": {
+                            "x": 133,
+                            "y": 198
+                        },
+                        "target": {
+                            "type": "MANS",
+                            "class": "",
+                            "id": ""
+                        },
+                        "stamp": 1608165282387
+                    },
+                    {
+                        "position": {
+                            "x": 873,
+                            "y": 545
+                        },
+                        "target": {
+                            "type": "IMG",
+                            "class": "arr-for",
+                            "id": ""
+                        },
+                        "stamp": 1608165283016
+                    },
+                    {
+                        "position": {
+                            "x": 199,
+                            "y": 141
+                        },
+                        "target": {
+                            "type": "MCHOICE",
+                            "class": "x-opt x-a-selected",
+                            "id": "index0"
+                        },
+                        "stamp": 1608165284067
+                    },
+                    {
+                        "position": {
+                            "x": 865,
+                            "y": 541
+                        },
+                        "target": {
+                            "type": "IMG",
+                            "class": "arr-for",
+                            "id": ""
+                        },
+                        "stamp": 1608165284633
+                    },
+                    {
+                        "position": {
+                            "x": 283,
+                            "y": 330
+                        },
+                        "target": {
+                            "type": "MCHOICE",
+                            "class": "x-opt x-a-selected",
+                            "id": "index3"
+                        },
+                        "stamp": 1608165286051
+                    },
+                    {
+                        "position": {
+                            "x": 871,
+                            "y": 544
+                        },
+                        "target": {
+                            "type": "IMG",
+                            "class": "arr-for",
+                            "id": ""
+                        },
+                        "stamp": 1608165286881
+                    },
+                    {
+                        "position": {
+                            "x": 267,
+                            "y": 237
+                        },
+                        "target": {
+                            "type": "MCHOICE",
+                            "class": "x-opt x-a-selected",
+                            "id": "index2"
+                        },
+                        "stamp": 1608165287915
+                    },
+                    {
+                        "position": {
+                            "x": 873,
+                            "y": 555
+                        },
+                        "target": {
+                            "type": "IMG",
+                            "class": "arr-for",
+                            "id": ""
+                        },
+                        "stamp": 1608165288732
+                    },
+                    {
+                        "position": {
+                            "x": 594,
+                            "y": 549
+                        },
+                        "target": {
+                            "type": "BUTTON",
+                            "class": "x-but-green x-t-submit",
+                            "id": ""
+                        },
+                        "stamp": 1608165289830
+                    },
+                    {
+                        "position": {
+                            "x": 317,
+                            "y": 267
+                        },
+                        "target": {
+                            "type": "I",
+                            "class": "",
+                            "id": ""
+                        },
+                        "stamp": 1608165299999
+                    },
+                    {
+                        "position": {
+                            "x": 311,
+                            "y": 256
+                        },
+                        "target": {
+                            "type": "I",
+                            "class": "",
+                            "id": ""
+                        },
+                        "stamp": 1608165374404
+                    },
+                    {
+                        "position": {
+                            "x": 475,
+                            "y": 36
+                        },
+                        "target": {
+                            "type": "SPAN",
+                            "class": "x-n-center",
+                            "id": ""
+                        },
+                        "stamp": 1608165816677
+                    },
+                    {
+                        "position": {
+                            "x": 475,
+                            "y": 24
+                        },
+                        "target": {
+                            "type": "BUTTON",
+                            "class": "x-but-green x-t-start",
+                            "id": ""
+                        },
+                        "stamp": 1608165817903
+                    },
+                    {
+                        "position": {
+                            "x": 593,
+                            "y": 390
+                        },
+                        "target": {
+                            "type": "FRX-BTN-CLOSE",
+                            "class": "",
+                            "id": ""
+                        },
+                        "stamp": 1608165818689
+                    },
+                    {
+                        "position": {
+                            "x": 203,
+                            "y": 291
+                        },
+                        "target": {
+                            "type": "MCHOICE",
+                            "class": "x-opt x-a-selected",
+                            "id": "index2"
+                        },
+                        "stamp": 1608165820213
+                    },
+                    {
+                        "position": {
+                            "x": 863,
+                            "y": 535
+                        },
+                        "target": {
+                            "type": "IMG",
+                            "class": "arr-for",
+                            "id": ""
+                        },
+                        "stamp": 1608165820979
+                    },
+                    {
+                        "position": {
+                            "x": 185,
+                            "y": 184
+                        },
+                        "target": {
+                            "type": "MCHOICE",
+                            "class": "x-opt x-a-selected",
+                            "id": "index1"
+                        },
+                        "stamp": 1608165821829
+                    },
+                    {
+                        "position": {
+                            "x": 857,
+                            "y": 540
+                        },
+                        "target": {
+                            "type": "IMG",
+                            "class": "arr-for",
+                            "id": ""
+                        },
+                        "stamp": 1608165822473
+                    },
+                    {
+                        "position": {
+                            "x": 489,
+                            "y": 165
+                        },
+                        "target": {
+                            "type": "MTF",
+                            "class": "x-opt x-a-selected",
+                            "id": "index0"
+                        },
+                        "stamp": 1608165827541
+                    },
+                    {
+                        "position": {
+                            "x": 859,
+                            "y": 535
+                        },
+                        "target": {
+                            "type": "IMG",
+                            "class": "arr-for",
+                            "id": ""
+                        },
+                        "stamp": 1608165828129
+                    },
+                    {
+                        "position": {
+                            "x": 448,
+                            "y": 143
+                        },
+                        "target": {
+                            "type": "MTF",
+                            "class": "x-opt x-a-selected",
+                            "id": "index0"
+                        },
+                        "stamp": 1608165830717
+                    },
+                    {
+                        "position": {
+                            "x": 875,
+                            "y": 559
+                        },
+                        "target": {
+                            "type": "IMG",
+                            "class": "arr-for",
+                            "id": ""
+                        },
+                        "stamp": 1608165832021
+                    },
+                    {
+                        "position": {
+                            "x": 574,
+                            "y": 555
+                        },
+                        "target": {
+                            "type": "BUTTON",
+                            "class": "x-but-green x-t-submit",
+                            "id": ""
+                        },
+                        "stamp": 1608165835584
+                    },
+                    {
+                        "position": {
+                            "x": 311,
+                            "y": 262
+                        },
+                        "target": {
+                            "type": "I",
+                            "class": "",
+                            "id": ""
+                        },
+                        "stamp": 1608165869649
+                    },
+                    {
+                        "position": {
+                            "x": 292,
+                            "y": 270
+                        },
+                        "target": {
+                            "type": "I",
+                            "class": "",
+                            "id": ""
+                        },
+                        "stamp": 1608165930041
+                    },
+                    {
+                        "position": {
+                            "x": 658,
+                            "y": 221
+                        },
+                        "target": {
+                            "type": "X-ACT-INNER",
+                            "class": "repl-target",
+                            "id": ""
+                        },
+                        "stamp": 1608165930608
+                    },
+                    {
+                        "position": {
+                            "x": 469,
+                            "y": 21
+                        },
+                        "target": {
+                            "type": "BUTTON",
+                            "class": "x-but-green x-t-start",
+                            "id": ""
+                        },
+                        "stamp": 1608165983010
+                    },
+                    {
+                        "position": {
+                            "x": 583,
+                            "y": 394
+                        },
+                        "target": {
+                            "type": "FRX-BTN-CLOSE",
+                            "class": "",
+                            "id": ""
+                        },
+                        "stamp": 1608165983644
+                    },
+                    {
+                        "position": {
+                            "x": 332,
+                            "y": 150
+                        },
+                        "target": {
+                            "type": "MCHOICE",
+                            "class": "x-opt x-a-selected",
+                            "id": "index0"
+                        },
+                        "stamp": 1608165984712
+                    },
+                    {
+                        "position": {
+                            "x": 851,
+                            "y": 535
+                        },
+                        "target": {
+                            "type": "X-FOOTER",
+                            "class": "x-foot",
+                            "id": ""
+                        },
+                        "stamp": 1608165985464
+                    },
+                    {
+                        "position": {
+                            "x": 875,
+                            "y": 557
+                        },
+                        "target": {
+                            "type": "IMG",
+                            "class": "arr-for",
+                            "id": ""
+                        },
+                        "stamp": 1608165986164
+                    },
+                    {
+                        "position": {
+                            "x": 449,
+                            "y": 169
+                        },
+                        "target": {
+                            "type": "MTF",
+                            "class": "x-opt x-a-selected",
+                            "id": "index0"
+                        },
+                        "stamp": 1608165987208
+                    },
+                    {
+                        "position": {
+                            "x": 862,
+                            "y": 547
+                        },
+                        "target": {
+                            "type": "IMG",
+                            "class": "arr-for",
+                            "id": ""
+                        },
+                        "stamp": 1608165987830
+                    },
+                    {
+                        "position": {
+                            "x": 267,
+                            "y": 282
+                        },
+                        "target": {
+                            "type": "MULTIPLECHOICE",
+                            "class": "x-own",
+                            "id": ""
+                        },
+                        "stamp": 1608165988984
+                    },
+                    {
+                        "position": {
+                            "x": 276,
+                            "y": 299
+                        },
+                        "target": {
+                            "type": "MANS",
+                            "class": "",
+                            "id": ""
+                        },
+                        "stamp": 1608165989216
+                    },
+                    {
+                        "position": {
+                            "x": 866,
+                            "y": 537
+                        },
+                        "target": {
+                            "type": "IMG",
+                            "class": "arr-for",
+                            "id": ""
+                        },
+                        "stamp": 1608165989724
+                    },
+                    {
+                        "position": {
+                            "x": 510,
+                            "y": 162
+                        },
+                        "target": {
+                            "type": "MTF",
+                            "class": "x-opt x-a-selected",
+                            "id": "index0"
+                        },
+                        "stamp": 1608165990448
+                    },
+                    {
+                        "position": {
+                            "x": 862,
+                            "y": 552
+                        },
+                        "target": {
+                            "type": "IMG",
+                            "class": "arr-for",
+                            "id": ""
+                        },
+                        "stamp": 1608165991022
+                    },
+                    {
+                        "position": {
+                            "x": 243,
+                            "y": 148
+                        },
+                        "target": {
+                            "type": "MCHOICE",
+                            "class": "x-opt x-a-selected",
+                            "id": "index0"
+                        },
+                        "stamp": 1608165991976
+                    },
+                    {
+                        "position": {
+                            "x": 495,
+                            "y": 21
+                        },
+                        "target": {
+                            "type": "BUTTON",
+                            "class": "x-but-green x-t-start",
+                            "id": ""
+                        },
+                        "stamp": 1608166014635
+                    },
+                    {
+                        "position": {
+                            "x": 592,
+                            "y": 391
+                        },
+                        "target": {
+                            "type": "FRX-BTN-CLOSE",
+                            "class": "",
+                            "id": ""
+                        },
+                        "stamp": 1608166015364
+                    },
+                    {
+                        "position": {
+                            "x": 310,
+                            "y": 158
+                        },
+                        "target": {
+                            "type": "MCHOICE",
+                            "class": "x-opt x-a-selected",
+                            "id": "index0"
+                        },
+                        "stamp": 1608166016369
+                    },
+                    {
+                        "position": {
+                            "x": 875,
+                            "y": 539
+                        },
+                        "target": {
+                            "type": "IMG",
+                            "class": "arr-for",
+                            "id": ""
+                        },
+                        "stamp": 1608166018069
+                    },
+                    {
+                        "position": {
+                            "x": 515,
+                            "y": 179
+                        },
+                        "target": {
+                            "type": "MTF",
+                            "class": "x-opt x-a-selected",
+                            "id": "index0"
+                        },
+                        "stamp": 1608166018712
+                    },
+                    {
+                        "position": {
+                            "x": 867,
+                            "y": 553
+                        },
+                        "target": {
+                            "type": "IMG",
+                            "class": "arr-for",
+                            "id": ""
+                        },
+                        "stamp": 1608166019313
+                    },
+                    {
+                        "position": {
+                            "x": 888,
+                            "y": 549
+                        },
+                        "target": {
+                            "type": "X-FOOTER",
+                            "class": "x-foot",
+                            "id": ""
+                        },
+                        "stamp": 1608166022049
+                    },
+                    {
+                        "position": {
+                            "x": 873,
+                            "y": 547
+                        },
+                        "target": {
+                            "type": "IMG",
+                            "class": "arr-for",
+                            "id": ""
+                        },
+                        "stamp": 1608166022351
+                    },
+                    {
+                        "position": {
+                            "x": 852,
+                            "y": 547
+                        },
+                        "target": {
+                            "type": "X-FOOTER",
+                            "class": "x-foot",
+                            "id": ""
+                        },
+                        "stamp": 1608166026481
+                    },
+                    {
+                        "position": {
+                            "x": 871,
+                            "y": 543
+                        },
+                        "target": {
+                            "type": "IMG",
+                            "class": "arr-for",
+                            "id": ""
+                        },
+                        "stamp": 1608166027501
+                    },
+                    {
+                        "position": {
+                            "x": 569,
+                            "y": 557
+                        },
+                        "target": {
+                            "type": "BUTTON",
+                            "class": "x-but-green x-t-submit",
+                            "id": ""
+                        },
+                        "stamp": 1608166030867
+                    },
+                    {
+                        "position": {
+                            "x": 281,
+                            "y": 257
+                        },
+                        "target": {
+                            "type": "I",
+                            "class": "",
+                            "id": ""
+                        },
+                        "stamp": 1608166033162
+                    },
+                    {
+                        "position": {
+                            "x": 439,
+                            "y": 21
+                        },
+                        "target": {
+                            "type": "BUTTON",
+                            "class": "x-but-green x-t-start",
+                            "id": ""
+                        },
+                        "stamp": 1608166211326
+                    },
+                    {
+                        "position": {
+                            "x": 557,
+                            "y": 385
+                        },
+                        "target": {
+                            "type": "FRX-BTN-CLOSE",
+                            "class": "",
+                            "id": ""
+                        },
+                        "stamp": 1608166212194
+                    },
+                    {
+                        "position": {
+                            "x": 862,
+                            "y": 544
+                        },
+                        "target": {
+                            "type": "IMG",
+                            "class": "arr-for",
+                            "id": ""
+                        },
+                        "stamp": 1608166217059
+                    },
+                    {
+                        "position": {
+                            "x": 246,
+                            "y": 260
+                        },
+                        "target": {
+                            "type": "MCHOICE",
+                            "class": "x-opt x-a-selected",
+                            "id": "index2"
+                        },
+                        "stamp": 1608166218157
+                    },
+                    {
+                        "position": {
+                            "x": 868,
+                            "y": 565
+                        },
+                        "target": {
+                            "type": "IMG",
+                            "class": "arr-for",
+                            "id": ""
+                        },
+                        "stamp": 1608166218778
+                    },
+                    {
+                        "position": {
+                            "x": 276,
+                            "y": 317
+                        },
+                        "target": {
+                            "type": "MCHOICE",
+                            "class": "x-opt x-a-selected",
+                            "id": "index3"
+                        },
+                        "stamp": 1608166219645
+                    },
+                    {
+                        "position": {
+                            "x": 876,
+                            "y": 543
+                        },
+                        "target": {
+                            "type": "IMG",
+                            "class": "arr-for",
+                            "id": ""
+                        },
+                        "stamp": 1608166220346
+                    },
+                    {
+                        "position": {
+                            "x": 446,
+                            "y": 12
+                        },
+                        "target": {
+                            "type": "BUTTON",
+                            "class": "x-but-green x-t-start",
+                            "id": ""
+                        },
+                        "stamp": 1608166317601
+                    },
+                    {
+                        "position": {
+                            "x": 604,
+                            "y": 388
+                        },
+                        "target": {
+                            "type": "FRX-BTN-CLOSE",
+                            "class": "",
+                            "id": ""
+                        },
+                        "stamp": 1608166318391
+                    },
+                    {
+                        "position": {
+                            "x": 381,
+                            "y": 172
+                        },
+                        "target": {
+                            "type": "MTF",
+                            "class": "x-opt x-a-selected",
+                            "id": "index1"
+                        },
+                        "stamp": 1608166319079
+                    },
+                    {
+                        "position": {
+                            "x": 865,
+                            "y": 553
+                        },
+                        "target": {
+                            "type": "IMG",
+                            "class": "arr-for",
+                            "id": ""
+                        },
+                        "stamp": 1608166320042
+                    },
+                    {
+                        "position": {
+                            "x": 446,
+                            "y": 173
+                        },
+                        "target": {
+                            "type": "MTF",
+                            "class": "x-opt x-a-selected",
+                            "id": "index0"
+                        },
+                        "stamp": 1608166320895
+                    },
+                    {
+                        "position": {
+                            "x": 877,
+                            "y": 555
+                        },
+                        "target": {
+                            "type": "IMG",
+                            "class": "arr-for",
+                            "id": ""
+                        },
+                        "stamp": 1608166321373
+                    },
+                    {
+                        "position": {
+                            "x": 321,
+                            "y": 194
+                        },
+                        "target": {
+                            "type": "MCHOICE",
+                            "class": "x-opt x-a-selected",
+                            "id": "index1"
+                        },
+                        "stamp": 1608166321927
+                    },
+                    {
+                        "position": {
+                            "x": 865,
+                            "y": 547
+                        },
+                        "target": {
+                            "type": "IMG",
+                            "class": "arr-for",
+                            "id": ""
+                        },
+                        "stamp": 1608166322524
+                    },
+                    {
+                        "position": {
+                            "x": 290,
+                            "y": 224
+                        },
+                        "target": {
+                            "type": "MULTIPLECHOICE",
+                            "class": "x-own",
+                            "id": ""
+                        },
+                        "stamp": 1608166322926
+                    },
+                    {
+                        "position": {
+                            "x": 728,
+                            "y": 256
+                        },
+                        "target": {
+                            "type": "MCHOICE",
+                            "class": "x-opt x-a-selected",
+                            "id": "index2"
+                        },
+                        "stamp": 1608166323751
+                    },
+                    {
+                        "position": {
+                            "x": 881,
+                            "y": 548
+                        },
+                        "target": {
+                            "type": "IMG",
+                            "class": "arr-for",
+                            "id": ""
+                        },
+                        "stamp": 1608166324407
+                    },
+                    {
+                        "position": {
+                            "x": 576,
+                            "y": 548
+                        },
+                        "target": {
+                            "type": "BUTTON",
+                            "class": "x-but-green x-t-submit",
+                            "id": ""
+                        },
+                        "stamp": 1608166329570
+                    },
+                    {
+                        "position": {
+                            "x": 294,
+                            "y": 264
+                        },
+                        "target": {
+                            "type": "I",
+                            "class": "",
+                            "id": ""
+                        },
+                        "stamp": 1608166337475
+                    },
+                    {
+                        "position": {
+                            "x": 480,
+                            "y": 234
+                        },
+                        "target": {
+                            "type": "BUTTON",
+                            "class": "xx2-student",
+                            "id": ""
+                        },
+                        "stamp": 1608166760848
+                    },
+                    {
+                        "position": {
+                            "x": 464,
+                            "y": 32
+                        },
+                        "target": {
+                            "type": "BUTTON",
+                            "class": "x-but-green x-t-start",
+                            "id": ""
+                        },
+                        "stamp": 1608166781774
+                    },
+                    {
+                        "position": {
+                            "x": 590,
+                            "y": 378
+                        },
+                        "target": {
+                            "type": "DIV",
+                            "class": "frx-suffix",
+                            "id": ""
+                        },
+                        "stamp": 1608166782447
+                    },
+                    {
+                        "position": {
+                            "x": 592,
+                            "y": 392
+                        },
+                        "target": {
+                            "type": "FRX-BTN-CLOSE",
+                            "class": "",
+                            "id": ""
+                        },
+                        "stamp": 1608166783043
+                    },
+                    {
+                        "position": {
+                            "x": 385,
+                            "y": 206
+                        },
+                        "target": {
+                            "type": "MCHOICE",
+                            "class": "x-opt x-a-selected",
+                            "id": "index1"
+                        },
+                        "stamp": 1608166783864
+                    },
+                    {
+                        "position": {
+                            "x": 861,
+                            "y": 554
+                        },
+                        "target": {
+                            "type": "IMG",
+                            "class": "arr-for",
+                            "id": ""
+                        },
+                        "stamp": 1608166784462
+                    },
+                    {
+                        "position": {
+                            "x": 512,
+                            "y": 180
+                        },
+                        "target": {
+                            "type": "X-ACTUAL",
+                            "class": "",
+                            "id": ""
+                        },
+                        "stamp": 1608166785015
+                    },
+                    {
+                        "position": {
+                            "x": 575,
+                            "y": 158
+                        },
+                        "target": {
+                            "type": "MTF",
+                            "class": "x-opt x-a-selected",
+                            "id": "index0"
+                        },
+                        "stamp": 1608166785224
+                    },
+                    {
+                        "position": {
+                            "x": 864,
+                            "y": 557
+                        },
+                        "target": {
+                            "type": "IMG",
+                            "class": "arr-for",
+                            "id": ""
+                        },
+                        "stamp": 1608166785803
+                    },
+                    {
+                        "position": {
+                            "x": 286,
+                            "y": 139
+                        },
+                        "target": {
+                            "type": "MTF",
+                            "class": "x-opt x-a-selected",
+                            "id": "index1"
+                        },
+                        "stamp": 1608166786335
+                    },
+                    {
+                        "position": {
+                            "x": 870,
+                            "y": 541
+                        },
+                        "target": {
+                            "type": "IMG",
+                            "class": "arr-for",
+                            "id": ""
+                        },
+                        "stamp": 1608166787062
+                    },
+                    {
+                        "position": {
+                            "x": 451,
+                            "y": 302
+                        },
+                        "target": {
+                            "type": "MCHOICE",
+                            "class": "x-opt x-a-selected",
+                            "id": "index3"
+                        },
+                        "stamp": 1608166788416
+                    },
+                    {
+                        "position": {
+                            "x": 879,
+                            "y": 545
+                        },
+                        "target": {
+                            "type": "IMG",
+                            "class": "arr-for",
+                            "id": ""
+                        },
+                        "stamp": 1608166788974
+                    },
+                    {
+                        "position": {
+                            "x": 370,
+                            "y": 297
+                        },
+                        "target": {
+                            "type": "MCHOICE",
+                            "class": "x-opt x-a-selected",
+                            "id": "index3"
+                        },
+                        "stamp": 1608166790088
+                    },
+                    {
+                        "position": {
+                            "x": 873,
+                            "y": 543
+                        },
+                        "target": {
+                            "type": "IMG",
+                            "class": "arr-for",
+                            "id": ""
+                        },
+                        "stamp": 1608166790681
+                    },
+                    {
+                        "position": {
+                            "x": 596,
+                            "y": 547
+                        },
+                        "target": {
+                            "type": "BUTTON",
+                            "class": "x-but-green x-t-submit",
+                            "id": ""
+                        },
+                        "stamp": 1608166792060
+                    },
+                    {
+                        "position": {
+                            "x": 244,
+                            "y": 256
+                        },
+                        "target": {
+                            "type": "I",
+                            "class": "",
+                            "id": ""
+                        },
+                        "stamp": 1608166797563
+                    },
+                    {
+                        "position": {
+                            "x": 480,
+                            "y": 19
+                        },
+                        "target": {
+                            "type": "BUTTON",
+                            "class": "x-but-green x-t-start",
+                            "id": ""
+                        },
+                        "stamp": 1608167157271
+                    },
+                    {
+                        "position": {
+                            "x": 630,
+                            "y": 389
+                        },
+                        "target": {
+                            "type": "FRX-BTN-CLOSE",
+                            "class": "",
+                            "id": ""
+                        },
+                        "stamp": 1608167158011
+                    },
+                    {
+                        "position": {
+                            "x": 875,
+                            "y": 552
+                        },
+                        "target": {
+                            "type": "IMG",
+                            "class": "arr-for",
+                            "id": ""
+                        },
+                        "stamp": 1608167161346
+                    },
+                    {
+                        "position": {
+                            "x": 227,
+                            "y": 149
+                        },
+                        "target": {
+                            "type": "MTF",
+                            "class": "x-opt x-a-selected",
+                            "id": "index1"
+                        },
+                        "stamp": 1608167161918
+                    },
+                    {
+                        "position": {
+                            "x": 849,
+                            "y": 559
+                        },
+                        "target": {
+                            "type": "X-FOOTER",
+                            "class": "x-foot",
+                            "id": ""
+                        },
+                        "stamp": 1608167162445
+                    },
+                    {
+                        "position": {
+                            "x": 860,
+                            "y": 556
+                        },
+                        "target": {
+                            "type": "IMG",
+                            "class": "arr-for",
+                            "id": ""
+                        },
+                        "stamp": 1608167162788
+                    },
+                    {
+                        "position": {
+                            "x": 427,
+                            "y": 305
+                        },
+                        "target": {
+                            "type": "MCHOICE",
+                            "class": "x-opt x-a-selected",
+                            "id": "index3"
+                        },
+                        "stamp": 1608167164310
+                    },
+                    {
+                        "position": {
+                            "x": 856,
+                            "y": 532
+                        },
+                        "target": {
+                            "type": "X-FOOTER",
+                            "class": "x-foot",
+                            "id": ""
+                        },
+                        "stamp": 1608167164838
+                    },
+                    {
+                        "position": {
+                            "x": 858,
+                            "y": 540
+                        },
+                        "target": {
+                            "type": "IMG",
+                            "class": "arr-for",
+                            "id": ""
+                        },
+                        "stamp": 1608167165268
+                    },
+                    {
+                        "position": {
+                            "x": 485,
+                            "y": 44
+                        },
+                        "target": {
+                            "type": "X-NAV",
+                            "class": "",
+                            "id": ""
+                        },
+                        "stamp": 1608167196199
+                    },
+                    {
+                        "position": {
+                            "x": 489,
+                            "y": 32
+                        },
+                        "target": {
+                            "type": "BUTTON",
+                            "class": "x-but-green x-t-start",
+                            "id": ""
+                        },
+                        "stamp": 1608167196531
+                    },
+                    {
+                        "position": {
+                            "x": 614,
+                            "y": 366
+                        },
+                        "target": {
+                            "type": "DIV",
+                            "class": "frx-suffix",
+                            "id": ""
+                        },
+                        "stamp": 1608167197495
+                    },
+                    {
+                        "position": {
+                            "x": 618,
+                            "y": 389
+                        },
+                        "target": {
+                            "type": "FRX-BTN-CLOSE",
+                            "class": "",
+                            "id": ""
+                        },
+                        "stamp": 1608167197760
+                    },
+                    {
+                        "position": {
+                            "x": 477,
+                            "y": 142
+                        },
+                        "target": {
+                            "type": "MTF",
+                            "class": "x-opt x-a-selected",
+                            "id": "index0"
+                        },
+                        "stamp": 1608167198959
+                    },
+                    {
+                        "position": {
+                            "x": 876,
+                            "y": 558
+                        },
+                        "target": {
+                            "type": "IMG",
+                            "class": "arr-for",
+                            "id": ""
+                        },
+                        "stamp": 1608167199588
+                    },
+                    {
+                        "position": {
+                            "x": 443,
+                            "y": 154
+                        },
+                        "target": {
+                            "type": "MTF",
+                            "class": "x-opt x-a-selected",
+                            "id": "index0"
+                        },
+                        "stamp": 1608167200423
+                    },
+                    {
+                        "position": {
+                            "x": 859,
+                            "y": 553
+                        },
+                        "target": {
+                            "type": "IMG",
+                            "class": "arr-for",
+                            "id": ""
+                        },
+                        "stamp": 1608167201318
+                    },
+                    {
+                        "position": {
+                            "x": 464,
+                            "y": 258
+                        },
+                        "target": {
+                            "type": "MCHOICE",
+                            "class": "x-opt x-a-selected",
+                            "id": "index2"
+                        },
+                        "stamp": 1608167202431
+                    },
+                    {
+                        "position": {
+                            "x": 869,
+                            "y": 551
+                        },
+                        "target": {
+                            "type": "IMG",
+                            "class": "arr-for",
+                            "id": ""
+                        },
+                        "stamp": 1608167203042
+                    },
+                    {
+                        "position": {
+                            "x": 456,
+                            "y": 30
+                        },
+                        "target": {
+                            "type": "BUTTON",
+                            "class": "x-but-green x-t-start",
+                            "id": ""
+                        },
+                        "stamp": 1608167303275
+                    },
+                    {
+                        "position": {
+                            "x": 600,
+                            "y": 393
+                        },
+                        "target": {
+                            "type": "FRX-BTN-CLOSE",
+                            "class": "",
+                            "id": ""
+                        },
+                        "stamp": 1608167303881
+                    },
+                    {
+                        "position": {
+                            "x": 872,
+                            "y": 552
+                        },
+                        "target": {
+                            "type": "IMG",
+                            "class": "arr-for",
+                            "id": ""
+                        },
+                        "stamp": 1608167307080
+                    },
+                    {
+                        "position": {
+                            "x": 871,
+                            "y": 548
+                        },
+                        "target": {
+                            "type": "IMG",
+                            "class": "arr-for",
+                            "id": ""
+                        },
+                        "stamp": 1608167309998
+                    },
+                    {
+                        "position": {
+                            "x": 306,
+                            "y": 152
+                        },
+                        "target": {
+                            "type": "MTF",
+                            "class": "x-opt x-a-selected",
+                            "id": "index1"
+                        },
+                        "stamp": 1608167310611
+                    },
+                    {
+                        "position": {
+                            "x": 866,
+                            "y": 542
+                        },
+                        "target": {
+                            "type": "IMG",
+                            "class": "arr-for",
+                            "id": ""
+                        },
+                        "stamp": 1608167311166
+                    },
+                    {
+                        "position": {
+                            "x": 509,
+                            "y": 163
+                        },
+                        "target": {
+                            "type": "MTF",
+                            "class": "x-opt x-a-selected",
+                            "id": "index0"
+                        },
+                        "stamp": 1608167311730
+                    },
+                    {
+                        "position": {
+                            "x": 482,
+                            "y": 28
+                        },
+                        "target": {
+                            "type": "BUTTON",
+                            "class": "x-but-green x-t-start",
+                            "id": ""
+                        },
+                        "stamp": 1608167364764
+                    },
+                    {
+                        "position": {
+                            "x": 625,
+                            "y": 390
+                        },
+                        "target": {
+                            "type": "FRX-BTN-CLOSE",
+                            "class": "",
+                            "id": ""
+                        },
+                        "stamp": 1608167365362
+                    },
+                    {
+                        "position": {
+                            "x": 852,
+                            "y": 542
+                        },
+                        "target": {
+                            "type": "IMG",
+                            "class": "arr-for",
+                            "id": ""
+                        },
+                        "stamp": 1608167368002
+                    },
+                    {
+                        "position": {
+                            "x": 170,
+                            "y": 210
+                        },
+                        "target": {
+                            "type": "MANS",
+                            "class": "",
+                            "id": ""
+                        },
+                        "stamp": 1608167369341
+                    },
+                    {
+                        "position": {
+                            "x": 864,
+                            "y": 536
+                        },
+                        "target": {
+                            "type": "IMG",
+                            "class": "arr-for",
+                            "id": ""
+                        },
+                        "stamp": 1608167369954
+                    },
+                    {
+                        "position": {
+                            "x": 474,
+                            "y": 26
+                        },
+                        "target": {
+                            "type": "BUTTON",
+                            "class": "x-but-green x-t-start",
+                            "id": ""
+                        },
+                        "stamp": 1608167458729
+                    },
+                    {
+                        "position": {
+                            "x": 606,
+                            "y": 396
+                        },
+                        "target": {
+                            "type": "FRX-BTN-CLOSE",
+                            "class": "",
+                            "id": ""
+                        },
+                        "stamp": 1608167459423
+                    },
+                    {
+                        "position": {
+                            "x": 489,
+                            "y": 144
+                        },
+                        "target": {
+                            "type": "MTF",
+                            "class": "x-opt x-a-selected",
+                            "id": "index0"
+                        },
+                        "stamp": 1608167460151
+                    },
+                    {
+                        "position": {
+                            "x": 869,
+                            "y": 549
+                        },
+                        "target": {
+                            "type": "IMG",
+                            "class": "arr-for",
+                            "id": ""
+                        },
+                        "stamp": 1608167461119
+                    },
+                    {
+                        "position": {
+                            "x": 870,
+                            "y": 564
+                        },
+                        "target": {
+                            "type": "IMG",
+                            "class": "arr-for",
+                            "id": ""
+                        },
+                        "stamp": 1608167464595
+                    },
+                    {
+                        "position": {
+                            "x": 306,
+                            "y": 152
+                        },
+                        "target": {
+                            "type": "MTF",
+                            "class": "x-opt x-a-selected",
+                            "id": "index1"
+                        },
+                        "stamp": 1608167465768
+                    },
+                    {
+                        "position": {
+                            "x": 861,
+                            "y": 547
+                        },
+                        "target": {
+                            "type": "IMG",
+                            "class": "arr-for",
+                            "id": ""
+                        },
+                        "stamp": 1608167466678
+                    },
+                    {
+                        "position": {
+                            "x": 302,
+                            "y": 210
+                        },
+                        "target": {
+                            "type": "MCHOICE",
+                            "class": "x-opt x-a-selected",
+                            "id": "index1"
+                        },
+                        "stamp": 1608167469552
+                    },
+                    {
+                        "position": {
+                            "x": 863,
+                            "y": 550
+                        },
+                        "target": {
+                            "type": "IMG",
+                            "class": "arr-for",
+                            "id": ""
+                        },
+                        "stamp": 1608167470173
+                    },
+                    {
+                        "position": {
+                            "x": 553,
+                            "y": 547
+                        },
+                        "target": {
+                            "type": "BUTTON",
+                            "class": "x-but-green x-t-submit",
+                            "id": ""
+                        },
+                        "stamp": 1608167476986
+                    },
+                    {
+                        "position": {
+                            "x": 286,
+                            "y": 262
+                        },
+                        "target": {
+                            "type": "I",
+                            "class": "",
+                            "id": ""
+                        },
+                        "stamp": 1608167479273
+                    },
+                    {
+                        "position": {
+                            "x": 465,
+                            "y": 31
+                        },
+                        "target": {
+                            "type": "BUTTON",
+                            "class": "x-but-green x-t-start",
+                            "id": ""
+                        },
+                        "stamp": 1608167616062
+                    },
+                    {
+                        "position": {
+                            "x": 600,
+                            "y": 388
+                        },
+                        "target": {
+                            "type": "FRX-BTN-CLOSE",
+                            "class": "",
+                            "id": ""
+                        },
+                        "stamp": 1608167616693
+                    },
+                    {
+                        "position": {
+                            "x": 450,
+                            "y": 28
+                        },
+                        "target": {
+                            "type": "BUTTON",
+                            "class": "x-but-green x-t-start",
+                            "id": ""
+                        },
+                        "stamp": 1608167634295
+                    },
+                    {
+                        "position": {
+                            "x": 600,
+                            "y": 391
+                        },
+                        "target": {
+                            "type": "FRX-BTN-CLOSE",
+                            "class": "",
+                            "id": ""
+                        },
+                        "stamp": 1608167635024
+                    },
+                    {
+                        "position": {
+                            "x": 192,
+                            "y": 263
+                        },
+                        "target": {
+                            "type": "MCHOICE",
+                            "class": "x-opt x-a-selected",
+                            "id": "index2"
+                        },
+                        "stamp": 1608167636629
+                    },
+                    {
+                        "position": {
+                            "x": 866,
+                            "y": 555
+                        },
+                        "target": {
+                            "type": "IMG",
+                            "class": "arr-for",
+                            "id": ""
+                        },
+                        "stamp": 1608167637411
+                    },
+                    {
+                        "position": {
+                            "x": 162,
+                            "y": 337
+                        },
+                        "target": {
+                            "type": "MCHOICE",
+                            "class": "x-opt x-a-selected",
+                            "id": "index3"
+                        },
+                        "stamp": 1608167638973
+                    },
+                    {
+                        "position": {
+                            "x": 865,
+                            "y": 550
+                        },
+                        "target": {
+                            "type": "IMG",
+                            "class": "arr-for",
+                            "id": ""
+                        },
+                        "stamp": 1608167639501
+                    },
+                    {
+                        "position": {
+                            "x": 487,
+                            "y": 27
+                        },
+                        "target": {
+                            "type": "BUTTON",
+                            "class": "x-but-green x-t-start",
+                            "id": ""
+                        },
+                        "stamp": 1608167698136
+                    },
+                    {
+                        "position": {
+                            "x": 614,
+                            "y": 395
+                        },
+                        "target": {
+                            "type": "FRX-BTN-CLOSE",
+                            "class": "",
+                            "id": ""
+                        },
+                        "stamp": 1608167699658
+                    },
+                    {
+                        "position": {
+                            "x": 316,
+                            "y": 304
+                        },
+                        "target": {
+                            "type": "MANS",
+                            "class": "",
+                            "id": ""
+                        },
+                        "stamp": 1608167702278
+                    },
+                    {
+                        "position": {
+                            "x": 862,
+                            "y": 557
+                        },
+                        "target": {
+                            "type": "IMG",
+                            "class": "arr-for",
+                            "id": ""
+                        },
+                        "stamp": 1608167702983
+                    },
+                    {
+                        "position": {
+                            "x": 874,
+                            "y": 548
+                        },
+                        "target": {
+                            "type": "IMG",
+                            "class": "arr-for",
+                            "id": ""
+                        },
+                        "stamp": 1608167709547
+                    },
+                    {
+                        "position": {
+                            "x": 864,
+                            "y": 552
+                        },
+                        "target": {
+                            "type": "IMG",
+                            "class": "arr-for",
+                            "id": ""
+                        },
+                        "stamp": 1608167713716
+                    },
+                    {
+                        "position": {
+                            "x": 233,
+                            "y": 243
+                        },
+                        "target": {
+                            "type": "MCHOICE",
+                            "class": "x-opt x-a-selected",
+                            "id": "index2"
+                        },
+                        "stamp": 1608167714663
+                    },
+                    {
+                        "position": {
+                            "x": 873,
+                            "y": 553
+                        },
+                        "target": {
+                            "type": "IMG",
+                            "class": "arr-for",
+                            "id": ""
+                        },
+                        "stamp": 1608167715386
+                    },
+                    {
+                        "position": {
+                            "x": 497,
+                            "y": 154
+                        },
+                        "target": {
+                            "type": "MTF",
+                            "class": "x-opt x-a-selected",
+                            "id": "index0"
+                        },
+                        "stamp": 1608167716895
+                    },
+                    {
+                        "position": {
+                            "x": 592,
+                            "y": 548
+                        },
+                        "target": {
+                            "type": "BUTTON",
+                            "class": "x-but-green x-t-submit",
+                            "id": ""
+                        },
+                        "stamp": 1608167718113
+                    },
+                    {
+                        "position": {
+                            "x": 268,
+                            "y": 260
+                        },
+                        "target": {
+                            "type": "I",
+                            "class": "",
+                            "id": ""
+                        },
+                        "stamp": 1608167719479
+                    },
+                    {
+                        "position": {
+                            "x": 423,
+                            "y": 42
+                        },
+                        "target": {
+                            "type": "X-NAV",
+                            "class": "",
+                            "id": ""
+                        },
+                        "stamp": 1608167930958
+                    },
+                    {
+                        "position": {
+                            "x": 422,
+                            "y": 21
+                        },
+                        "target": {
+                            "type": "BUTTON",
+                            "class": "x-but-green x-t-start",
+                            "id": ""
+                        },
+                        "stamp": 1608167931182
+                    },
+                    {
+                        "position": {
+                            "x": 587,
+                            "y": 393
+                        },
+                        "target": {
+                            "type": "FRX-BTN-CLOSE",
+                            "class": "",
+                            "id": ""
+                        },
+                        "stamp": 1608167931754
+                    },
+                    {
+                        "position": {
+                            "x": 874,
+                            "y": 552
+                        },
+                        "target": {
+                            "type": "IMG",
+                            "class": "arr-for",
+                            "id": ""
+                        },
+                        "stamp": 1608167934875
+                    },
+                    {
+                        "position": {
+                            "x": 870,
+                            "y": 556
+                        },
+                        "target": {
+                            "type": "IMG",
+                            "class": "arr-for",
+                            "id": ""
+                        },
+                        "stamp": 1608167937723
+                    },
+                    {
+                        "position": {
+                            "x": 266,
+                            "y": 198
+                        },
+                        "target": {
+                            "type": "MCHOICE",
+                            "class": "x-opt x-a-selected",
+                            "id": "index1"
+                        },
+                        "stamp": 1608167938630
+                    },
+                    {
+                        "position": {
+                            "x": 877,
+                            "y": 546
+                        },
+                        "target": {
+                            "type": "IMG",
+                            "class": "arr-for",
+                            "id": ""
+                        },
+                        "stamp": 1608167939212
+                    },
+                    {
+                        "position": {
+                            "x": 865,
+                            "y": 555
+                        },
+                        "target": {
+                            "type": "IMG",
+                            "class": "arr-for",
+                            "id": ""
+                        },
+                        "stamp": 1608167942092
+                    },
+                    {
+                        "position": {
+                            "x": 331,
+                            "y": 169
+                        },
+                        "target": {
+                            "type": "MULTIPLECHOICE",
+                            "class": "x-own",
+                            "id": ""
+                        },
+                        "stamp": 1608167943517
+                    },
+                    {
+                        "position": {
+                            "x": 525,
+                            "y": 167
+                        },
+                        "target": {
+                            "type": "MCHOICE",
+                            "class": "x-opt x-a-selected",
+                            "id": "index0"
+                        },
+                        "stamp": 1608167944030
+                    },
+                    {
+                        "position": {
+                            "x": 564,
+                            "y": 569
+                        },
+                        "target": {
+                            "type": "X-FOOTER",
+                            "class": "x-foot",
+                            "id": ""
+                        },
+                        "stamp": 1608167944637
+                    },
+                    {
+                        "position": {
+                            "x": 568,
+                            "y": 551
+                        },
+                        "target": {
+                            "type": "BUTTON",
+                            "class": "x-but-green x-t-submit",
+                            "id": ""
+                        },
+                        "stamp": 1608167944856
+                    },
+                    {
+                        "position": {
+                            "x": 254,
+                            "y": 258
+                        },
+                        "target": {
+                            "type": "I",
+                            "class": "",
+                            "id": ""
+                        },
+                        "stamp": 1608167946247
+                    },
+                    {
+                        "position": {
+                            "x": 492,
+                            "y": 219
+                        },
+                        "target": {
+                            "type": "BUTTON",
+                            "class": "xx2-student",
+                            "id": ""
+                        },
+                        "stamp": 1608424260454
+                    },
+                    {
+                        "position": {
+                            "x": 462,
+                            "y": 239
+                        },
+                        "target": {
+                            "type": "BUTTON",
+                            "class": "xx2-student",
+                            "id": ""
+                        },
+                        "stamp": 1608427851689
+                    },
+                    {
+                        "position": {
+                            "x": 474,
+                            "y": 179
+                        },
+                        "target": {
+                            "type": "INPUT",
+                            "class": "xx2-form-input",
+                            "id": "s-t"
+                        },
+                        "stamp": 1608427852695
+                    },
+                    {
+                        "position": {
+                            "x": 478,
+                            "y": 14
+                        },
+                        "target": {
+                            "type": "BUTTON",
+                            "class": "x-but-green x-t-start",
+                            "id": ""
+                        },
+                        "stamp": 1608427866806
+                    },
+                    {
+                        "position": {
+                            "x": 587,
+                            "y": 387
+                        },
+                        "target": {
+                            "type": "FRX-BTN-CLOSE",
+                            "class": "",
+                            "id": ""
+                        },
+                        "stamp": 1608427867766
+                    },
+                    {
+                        "position": {
+                            "x": 446,
+                            "y": 313
+                        },
+                        "target": {
+                            "type": "MCHOICE",
+                            "class": "x-opt x-a-selected",
+                            "id": "index3"
+                        },
+                        "stamp": 1608427869193
+                    },
+                    {
+                        "position": {
+                            "x": 834,
+                            "y": 542
+                        },
+                        "target": {
+                            "type": "X-FOOTER",
+                            "class": "x-foot",
+                            "id": ""
+                        },
+                        "stamp": 1608427869928
+                    },
+                    {
+                        "position": {
+                            "x": 855,
+                            "y": 541
+                        },
+                        "target": {
+                            "type": "IMG",
+                            "class": "arr-for",
+                            "id": ""
+                        },
+                        "stamp": 1608427870190
+                    },
+                    {
+                        "position": {
+                            "x": 115,
+                            "y": 243
+                        },
+                        "target": {
+                            "type": "MANS",
+                            "class": "",
+                            "id": ""
+                        },
+                        "stamp": 1608427871712
                     }
                 ],
                 "actions": [
@@ -4112,6 +6488,354 @@
                     {
                         "action": "UserStartTest",
                         "stamp": 1608158529185
+                    },
+                    {
+                        "action": "OpenTestCaplet",
+                        "stamp": 1608164626212
+                    },
+                    {
+                        "action": "NewWindowRender",
+                        "stamp": 1608164626255
+                    },
+                    {
+                        "action": "RenderNewTestData",
+                        "stamp": 1608164941965
+                    },
+                    {
+                        "action": "NewWindowRender",
+                        "stamp": 1608164941970
+                    },
+                    {
+                        "action": "UserStartTest",
+                        "stamp": 1608164944096
+                    },
+                    {
+                        "action": "UserSubmitTest",
+                        "stamp": 1608164974068
+                    },
+                    {
+                        "action": "UserLockTest",
+                        "stamp": 1608164978241
+                    },
+                    {
+                        "action": "RenderNewTestData",
+                        "stamp": 1608165069657
+                    },
+                    {
+                        "action": "NewWindowRender",
+                        "stamp": 1608165069661
+                    },
+                    {
+                        "action": "UserStartTest",
+                        "stamp": 1608165073932
+                    },
+                    {
+                        "action": "UserSubmitTest",
+                        "stamp": 1608165100111
+                    },
+                    {
+                        "action": "UserLockTest",
+                        "stamp": 1608165102646
+                    },
+                    {
+                        "action": "RenderNewTestData",
+                        "stamp": 1608165274397
+                    },
+                    {
+                        "action": "NewWindowRender",
+                        "stamp": 1608165274401
+                    },
+                    {
+                        "action": "UserStartTest",
+                        "stamp": 1608165276310
+                    },
+                    {
+                        "action": "UserSubmitTest",
+                        "stamp": 1608165289826
+                    },
+                    {
+                        "action": "UserLockTest",
+                        "stamp": 1608165363553
+                    },
+                    {
+                        "action": "RenderNewTestData",
+                        "stamp": 1608165815013
+                    },
+                    {
+                        "action": "NewWindowRender",
+                        "stamp": 1608165815017
+                    },
+                    {
+                        "action": "UserStartTest",
+                        "stamp": 1608165818689
+                    },
+                    {
+                        "action": "UserSubmitTest",
+                        "stamp": 1608165835581
+                    },
+                    {
+                        "action": "UserLockTest",
+                        "stamp": 1608165839184
+                    },
+                    {
+                        "action": "RenderNewTestData",
+                        "stamp": 1608165982207
+                    },
+                    {
+                        "action": "NewWindowRender",
+                        "stamp": 1608165982211
+                    },
+                    {
+                        "action": "UserStartTest",
+                        "stamp": 1608165983644
+                    },
+                    {
+                        "action": "RenderNewTestData",
+                        "stamp": 1608166013546
+                    },
+                    {
+                        "action": "NewWindowRender",
+                        "stamp": 1608166013551
+                    },
+                    {
+                        "action": "UserStartTest",
+                        "stamp": 1608166015364
+                    },
+                    {
+                        "action": "UserSubmitTest",
+                        "stamp": 1608166030865
+                    },
+                    {
+                        "action": "UserLockTest",
+                        "stamp": 1608166036988
+                    },
+                    {
+                        "action": "RenderNewTestData",
+                        "stamp": 1608166210387
+                    },
+                    {
+                        "action": "NewWindowRender",
+                        "stamp": 1608166210391
+                    },
+                    {
+                        "action": "UserStartTest",
+                        "stamp": 1608166212194
+                    },
+                    {
+                        "action": "RenderNewTestData",
+                        "stamp": 1608166316550
+                    },
+                    {
+                        "action": "NewWindowRender",
+                        "stamp": 1608166316554
+                    },
+                    {
+                        "action": "UserStartTest",
+                        "stamp": 1608166318391
+                    },
+                    {
+                        "action": "UserSubmitTest",
+                        "stamp": 1608166329567
+                    },
+                    {
+                        "action": "UserLockTest",
+                        "stamp": 1608166337999
+                    },
+                    {
+                        "action": "OpenTestCaplet",
+                        "stamp": 1608166754833
+                    },
+                    {
+                        "action": "NewWindowRender",
+                        "stamp": 1608166754875
+                    },
+                    {
+                        "action": "RenderNewTestData",
+                        "stamp": 1608166770929
+                    },
+                    {
+                        "action": "NewWindowRender",
+                        "stamp": 1608166770933
+                    },
+                    {
+                        "action": "UserStartTest",
+                        "stamp": 1608166783043
+                    },
+                    {
+                        "action": "UserSubmitTest",
+                        "stamp": 1608166792056
+                    },
+                    {
+                        "action": "UserLockTest",
+                        "stamp": 1608166815720
+                    },
+                    {
+                        "action": "RenderNewTestData",
+                        "stamp": 1608167155411
+                    },
+                    {
+                        "action": "NewWindowRender",
+                        "stamp": 1608167155415
+                    },
+                    {
+                        "action": "UserStartTest",
+                        "stamp": 1608167158011
+                    },
+                    {
+                        "action": "RenderNewTestData",
+                        "stamp": 1608167195066
+                    },
+                    {
+                        "action": "NewWindowRender",
+                        "stamp": 1608167195070
+                    },
+                    {
+                        "action": "UserStartTest",
+                        "stamp": 1608167197760
+                    },
+                    {
+                        "action": "RenderNewTestData",
+                        "stamp": 1608167302193
+                    },
+                    {
+                        "action": "NewWindowRender",
+                        "stamp": 1608167302198
+                    },
+                    {
+                        "action": "UserStartTest",
+                        "stamp": 1608167303881
+                    },
+                    {
+                        "action": "RenderNewTestData",
+                        "stamp": 1608167363712
+                    },
+                    {
+                        "action": "NewWindowRender",
+                        "stamp": 1608167363716
+                    },
+                    {
+                        "action": "UserStartTest",
+                        "stamp": 1608167365362
+                    },
+                    {
+                        "action": "RenderNewTestData",
+                        "stamp": 1608167456948
+                    },
+                    {
+                        "action": "NewWindowRender",
+                        "stamp": 1608167456952
+                    },
+                    {
+                        "action": "UserStartTest",
+                        "stamp": 1608167459423
+                    },
+                    {
+                        "action": "UserSubmitTest",
+                        "stamp": 1608167476983
+                    },
+                    {
+                        "action": "RenderNewTestData",
+                        "stamp": 1608167615140
+                    },
+                    {
+                        "action": "NewWindowRender",
+                        "stamp": 1608167615144
+                    },
+                    {
+                        "action": "UserStartTest",
+                        "stamp": 1608167616693
+                    },
+                    {
+                        "action": "UserLockTest",
+                        "stamp": 1608167620266
+                    },
+                    {
+                        "action": "RenderNewTestData",
+                        "stamp": 1608167633444
+                    },
+                    {
+                        "action": "NewWindowRender",
+                        "stamp": 1608167633448
+                    },
+                    {
+                        "action": "UserStartTest",
+                        "stamp": 1608167635024
+                    },
+                    {
+                        "action": "RenderNewTestData",
+                        "stamp": 1608167696719
+                    },
+                    {
+                        "action": "NewWindowRender",
+                        "stamp": 1608167696723
+                    },
+                    {
+                        "action": "UserStartTest",
+                        "stamp": 1608167699658
+                    },
+                    {
+                        "action": "UserSubmitTest",
+                        "stamp": 1608167718111
+                    },
+                    {
+                        "action": "UserLockTest",
+                        "stamp": 1608167811324
+                    },
+                    {
+                        "action": "RenderNewTestData",
+                        "stamp": 1608167930039
+                    },
+                    {
+                        "action": "NewWindowRender",
+                        "stamp": 1608167930047
+                    },
+                    {
+                        "action": "UserStartTest",
+                        "stamp": 1608167931754
+                    },
+                    {
+                        "action": "UserSubmitTest",
+                        "stamp": 1608167944853
+                    },
+                    {
+                        "action": "UserLockTest",
+                        "stamp": 1608167966884
+                    },
+                    {
+                        "action": "OpenTestCaplet",
+                        "stamp": 1608424255840
+                    },
+                    {
+                        "action": "NewWindowRender",
+                        "stamp": 1608424255885
+                    },
+                    {
+                        "action": "RenderNewTestData",
+                        "stamp": 1608424274340
+                    },
+                    {
+                        "action": "NewWindowRender",
+                        "stamp": 1608424274344
+                    },
+                    {
+                        "action": "OpenTestCaplet",
+                        "stamp": 1608427843172
+                    },
+                    {
+                        "action": "NewWindowRender",
+                        "stamp": 1608427843223
+                    },
+                    {
+                        "action": "RenderNewTestData",
+                        "stamp": 1608427862165
+                    },
+                    {
+                        "action": "NewWindowRender",
+                        "stamp": 1608427862169
+                    },
+                    {
+                        "action": "UserStartTest",
+                        "stamp": 1608427867766
                     }
                 ]
             }
